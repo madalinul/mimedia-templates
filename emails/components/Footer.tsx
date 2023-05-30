@@ -1,23 +1,41 @@
-import { Column, Row, Section, Link, Hr } from "@react-email/components";
-import React from "react";
+import { Column, Row, Section } from '@react-email/components';
+import React from 'react';
+import CustomLink from './CustomLink';
+import { Languages } from './Template';
 
-const Footer = () => {
-  return (
-    <Section>
-      <Hr className="border border-solid border-[#eaeaea] my-[26px] mx-0 w-full" />
-      <Row>
-        <Column align="center">
-          <Link className="text-brand" href="https://portal.mimedia.com/orbic">
-            Home
-          </Link>
-          <span className="mx-2">|</span>
-          <Link className="text-brand" href="https://orbic.us/pages/contact-us">
-            Support
-          </Link>
-        </Column>
-      </Row>
-    </Section>
-  );
+const Footer = ({ language }: { language: Languages }) => {
+    return (
+        <Section>
+            <Row>
+                <Column align='center'>
+                    <CustomLink
+                        className='text-brand text-sm'
+                        href='https://portal.mimedia.com/orbic'
+                    >
+                        {translations[language].home}
+                    </CustomLink>
+                    <span className='mx-2'>|</span>
+                    <CustomLink
+                        className='text-brand text-sm'
+                        href='https://orbic.us/pages/contact-us'
+                    >
+                        {translations[language].support}
+                    </CustomLink>
+                </Column>
+            </Row>
+        </Section>
+    );
+};
+
+const translations: Record<Languages, { home: string; support: string }> = {
+    en: {
+        home: 'Home',
+        support: 'Support',
+    },
+    ja: {
+        home: 'ホーム',
+        support: 'サポート',
+    },
 };
 
 export default Footer;

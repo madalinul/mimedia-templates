@@ -1,0 +1,9 @@
+{SENDERFIRSTNAME} は {SHAREDITEMDESCRIPTION} をあなたと共有しました。{COLLECTIONNAME}
+
+{messageText}
+
+http://{baseUrl}/{shareKey}
+
+Orbic Cloud で見るにはこちらをクリックしてください！ [http://{baseUrl}/{shareKey}]
+
+ホーム [https://portal.mimedia.com/orbic]|サポート [https://orbic.us/pages/contact-us]
