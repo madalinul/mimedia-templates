@@ -6,7 +6,7 @@ import config from './config/config';
 
 export const SharedMediaItem = () => {
     return (
-        <Template>
+        <Template language='en'>
             <Heading className='leading-8 text-[24px] font-normal text-center p-0 my-[30px] mx-0 l'>
                 <span>{'{senderFirstName}'}</span> shared <span>{'{sharedItemDescription}'}</span>{' '}
                 with you <span className='text-brand'>{'{collectionName}'}</span>
