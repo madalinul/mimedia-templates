@@ -14,7 +14,7 @@ const PlanRenewRemind = () => {
             <Text className='mb-2'>{'Hi firstName!'}</Text>
             <Text className='mb-2'>
                 Just wanted to remind you that your current plan - planName is about to be renewed
-                on renewDate. You can check your subscription and plan settings in your {' '}
+                on renewDate. You can check your subscription and plan settings in your{' '}
                 <CustomLink href='https://portal{envDomain}.mimedia.com/orbic/#/account/plans'>
                     account
                 </CustomLink>{' '}

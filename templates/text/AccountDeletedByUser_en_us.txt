@@ -2,8 +2,8 @@ YOUR ACCOUNT HAS BEEN DELETED
 
 Hi {firstName}!
 
-You deleted your MiMedia account and we are very sorry about that. We hope that
-you will return to us again.
+You deleted your Orbic Cloud account and we are very sorry about that. We hope
+that you will return to us again.
 
 The Orbic Cloud Team
 

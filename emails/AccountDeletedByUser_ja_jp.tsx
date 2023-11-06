@@ -6,20 +6,19 @@ import config from './config/config';
 
 const AccountDeletedByUser = () => {
     return (
-        <Template language='en'>
+        <Template language='ja'>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>
-                Your account has been deleted
+                お客様のアカウントが削除されました
             </Heading>
-            <Text className='mb-2'>{'Hi {firstName}!'}</Text>
+            <Text className='mb-2'>{'{firstName}様'}</Text>
             <Text className='mb-2'>
-                You deleted your {config.appName} account and we are very sorry about that. We hope that you
-                will return to us again.
+                {config.appName}のアカウントを削除されたとのこと、残念です。またのご利用をお待ち申し上げております。
             </Text>
-            <Text className='mb-2'>The {config.appName} Team</Text>
+            <Text className='mb-2'>{config.appName} チーム</Text>
             <Hr className='border border-solid border-[#eaeaea] my-[24px] mx-0 w-full' />
             <Text className='text-xs'>
-                If you did not make this change, please check your account details and contact us at{' '}
-                <SupportLink /> if you believe someone has made an unauthorized change.
+                お客様側でこの変更を行わなかった場合、アカウントの詳細を再度ご確認いただき、不正な変更が行われたと思われる場合は、
+                <SupportLink /> までご連絡ください
             </Text>
         </Template>
     );

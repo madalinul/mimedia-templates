@@ -4,14 +4,14 @@ import { getEmails } from '../utils/get-emails';
 import Home from './home';
 
 export default async function Index() {
-  const { emails, filenames } = await getEmails();
+  const { emails } = await getEmails();
 
   for (const email of emails) {
     const Email = (await import(`../../../emails/${email}`)).default;
     const markup = render(<Email />, { pretty: true });
     const plainText = render(<Email />, { plainText: true });
     await fs.writeFile(
-      `/Users/madalin/dev/mimedia-templates/templates/html/${email}.html`,
+      `../templates/html/${email}.html`,
       markup,
       function (err) {
         if (err) throw err;
@@ -19,7 +19,7 @@ export default async function Index() {
       },
     );
     await fs.writeFile(
-      `/Users/madalin/dev/mimedia-templates/templates/text/${email}.txt`,
+      `../templates/text/${email}.txt`,
       plainText,
       function (err) {
         if (err) throw err;
