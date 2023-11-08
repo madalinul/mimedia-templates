@@ -4,10 +4,11 @@ import CustomButton from './components/CustomButton';
 import SupportLink from './components/SupportLink';
 import Template from './components/Template';
 import config from './config/config';
+import { EmailProps } from './config/types';
 
-const InvPmtDeclined = () => {
+const InvPmtDeclined = ({ partner = 'mimedia', language='en' }: EmailProps) => {
     return (
-        <Template>
+        <Template language='en' partner={partner}>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>
                 Your payment for {'{planDescription}'} was not successful
             </Heading>
@@ -19,16 +20,16 @@ const InvPmtDeclined = () => {
                 Please check your card information on your Billing page or contact support team.
             </Text>
             <Text className='mb-2'>Cheers,</Text>
-            <Text className='mb-2'>The {config.appName} Team</Text>
+            <Text className='mb-2'>The {config[partner].appName} Team</Text>
             <Section className='text-center'>
                 <CustomButton href='http://portal.mimedia.com/orbic' className='inline-block mr-4'>
                     View billing info
                 </CustomButton>
-                <CustomButton href={`mailto:${config.supportEmail}`}>Contact support</CustomButton>
+                <CustomButton href={`mailto:${config[partner].supportEmail}`}>Contact support</CustomButton>
             </Section>
             <Hr className='border border-solid border-[#eaeaea] my-[24px] mx-0 w-full' />
             <Text className='text-xs'>
-                Please contact us at <SupportLink /> for more information.
+                Please contact us at <SupportLink link={config[partner].supportEmail} /> for more information.
             </Text>
         </Template>
     );

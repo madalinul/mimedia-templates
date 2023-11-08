@@ -1,5 +1,4 @@
 import { Column, Row, Section } from '@react-email/components';
-import React from 'react';
 import CustomLink from './CustomLink';
 import { Languages } from './Template';
 

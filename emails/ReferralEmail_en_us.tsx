@@ -3,13 +3,14 @@ import Template from './components/Template';
 import { Heading, Text, Row, Column, Img } from '@react-email/components';
 import CustomButton from './components/CustomButton';
 import config from './config/config';
+import { EmailProps } from './config/types';
 
-const ReferralEmail = () => {
+const ReferralEmail = ({ partner = 'mimedia', language='en' }: EmailProps) => {
     return (
-        <Template language='en'>
+        <Template language='en' partner={partner}>
             <Heading className='text-[24px] font-normal text-center p-0 mt-[30px] mx-0 mb-4 leading-small'>
                 <span className='text-brand'>{'{senderName}'}</span> thought you'd love{' '}
-                {config.appName}!
+                {config[partner].appName}!
             </Heading>
             <Row className='mb-2'>
                 <Column align='left'>
@@ -28,7 +29,7 @@ const ReferralEmail = () => {
                 </Column>
             </Row>
             <Text>
-                Have multiple devices? Not a problem. {config.appName} is device agnostic. That
+                Have multiple devices? Not a problem. {config[partner].appName} is device agnostic. That
                 means it communicates between Apple and Android devices seamlessly.
             </Text>
             <Text>

@@ -4,10 +4,11 @@ import CustomButton from './components/CustomButton';
 import CustomLink from './components/CustomLink';
 import Template from './components/Template';
 import config from './config/config';
+import { EmailProps } from './config/types';
 
-export const ThisDay = () => {
+export const ThisDay = ({ partner = 'mimedia', language='en' }: EmailProps) => {
     return (
-        <Template language='ja'>
+        <Template language='ja' partner='orbic'>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>
                 <span className='text-brand'>{'{year}のこの{scope} '}</span>
                 の思い出を見てみましょう
@@ -24,7 +25,7 @@ export const ThisDay = () => {
             </Section>
             <Section className='text-center mt-[32px] mb-[32px]'>
                 <CustomButton href={'http://{baseUrl}/{shareKey}'}>
-                    ここをクリックすると {config.appName} で見ることができます！
+                    ここをクリックすると {config[partner].appName} で見ることができます！
                 </CustomButton>
             </Section>
             <Hr className='border border-solid border-[#eaeaea] my-[24px] mx-0 w-full' />

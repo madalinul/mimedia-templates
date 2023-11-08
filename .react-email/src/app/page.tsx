@@ -3,15 +3,20 @@ import { promises as fs } from 'fs';
 import { getEmails } from '../utils/get-emails';
 import Home from './home';
 
+const partners = ['mimedia', 'orbic'];
+
 export default async function Index() {
   const { emails } = await getEmails();
 
+  console.log('write emails');
+
+  for(const partner of partners) {
   for (const email of emails) {
     const Email = (await import(`../../../emails/${email}`)).default;
-    const markup = render(<Email />, { pretty: true });
-    const plainText = render(<Email />, { plainText: true });
+    const markup = render(<Email partner={partner} />, { pretty: true });
+    const plainText = render(<Email partner={partner} />, { plainText: true });
     await fs.writeFile(
-      `../templates/html/${email}.html`,
+      `../templates/${partner}/html/${email}.html`,
       markup,
       function (err) {
         if (err) throw err;
@@ -19,7 +24,7 @@ export default async function Index() {
       },
     );
     await fs.writeFile(
-      `../templates/text/${email}.txt`,
+      `../templates/${partner}/text/${email}.txt`,
       plainText,
       function (err) {
         if (err) throw err;
@@ -27,6 +32,7 @@ export default async function Index() {
       },
     );
   }
+}
 
   return <Home navItems={emails} />;
 }

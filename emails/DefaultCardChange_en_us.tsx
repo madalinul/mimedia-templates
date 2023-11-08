@@ -3,10 +3,11 @@ import React from 'react';
 import SupportLink from './components/SupportLink';
 import Template from './components/Template';
 import config from './config/config';
+import { EmailProps } from './config/types';
 
-const DefaultCardChange = () => {
+const DefaultCardChange = ({ partner = 'mimedia', language='en' }: EmailProps) => {
     return (
-        <Template>
+        <Template language='en' partner={partner}>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>
                 Your billing has been updated.
             </Heading>
@@ -15,11 +16,11 @@ const DefaultCardChange = () => {
                 Our records show that you have updated your billing information. If this is correct,
                 then you are all set!
             </Text>
-            <Text className='mb-2'>The {config.appName} Team</Text>
+            <Text className='mb-2'>The {config[partner].appName} Team</Text>
             <Hr className='border border-solid border-[#eaeaea] my-[24px] mx-0 w-full' />
             <Text className='text-xs'>
                 If you did not make this change, please check your account details and contact us at{' '}
-                <SupportLink /> if you believe someone has made an unauthorized change.
+                <SupportLink link={config[partner].supportEmail} /> if you believe someone has made an unauthorized change.
             </Text>
         </Template>
     );

@@ -1,15 +1,19 @@
 import { Body, Container, Head, Html, Img, Section, Tailwind } from '@react-email/components';
 import * as React from 'react';
 import Footer from './Footer';
+import partnersConfig from '../config/config';
 
 export type Languages = 'en' | 'ja';
+export type Partner = 'mimedia' | 'orbic' | 'tmcell';
 
 export const Template = ({
     children,
     language = 'en',
+    partner=  'orbic',
 }: {
     children: React.ReactNode;
     language: Languages;
+    partner?: Partner;
 }) => {
     return (
         <Html>
@@ -19,8 +23,8 @@ export const Template = ({
                     theme: {
                         extend: {
                             colors: {
-                                brand: '#0a2240',
-                                textDark: '#444646',
+                                brand: partnersConfig[partner].brand,
+                                textDark: partnersConfig[partner].textDark,
                             },
                         },
                     },
@@ -32,16 +36,11 @@ export const Template = ({
                 >
                     <Container className='border border-solid border-[#eaeaea] rounded my-[40px] mx-auto p-[20px] w-[565px]'>
                         <Section className='mb-[24px]'>
-                            <Img
-                                src='https://portal.mimedia.com/orbic/assets/orbic-logo-44ae3486.png'
-                                width='100'
-                                alt='Logo'
-                                className='my-0 mx-auto'
-                            />
+                           {partnersConfig[partner].logo}
                         </Section>
                         {children}
                     </Container>
-                    <Footer language={language} />
+                    <Footer partner={partner} language={language} />
                 </Body>
             </Tailwind>
         </Html>

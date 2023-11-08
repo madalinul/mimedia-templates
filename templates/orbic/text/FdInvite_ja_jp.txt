@@ -1,0 +1,19 @@
+{customMessage}
+
+
+
+
+{FDNAME}
+
+
+に招待されました。
+
+{inviterFirstName} はあなたに{fdName}での投稿、コメント、{fdName}の他のメンバーとのチャットを許可しています。
+
+{fdMembers}
+
+{membersJoined}
+
+今すぐ参加しましょう！ [http://{joinUrl}]
+
+ホーム [https://portal.mimedia.com/orbic]|サポート [https://orbic.us/pages/contact-us]

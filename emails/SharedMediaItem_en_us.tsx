@@ -3,10 +3,11 @@ import * as React from 'react';
 import CustomButton from './components/CustomButton';
 import Template from './components/Template';
 import config from './config/config';
+import { EmailProps } from './config/types';
 
-export const SharedMediaItem = () => {
+export const SharedMediaItem = ({ partner = 'mimedia', language='en' }: EmailProps) => {
     return (
-        <Template language='en'>
+        <Template language='en' partner={partner}>
             <Heading className='leading-8 text-[24px] font-normal text-center p-0 my-[30px] mx-0 l'>
                 <span>{'{senderFirstName}'}</span> shared <span>{'{sharedItemDescription}'}</span>{' '}
                 with you <span className='text-brand'>{'{collectionName}'}</span>
@@ -35,7 +36,7 @@ export const SharedMediaItem = () => {
             </Section>
             <Section className='text-center mt-[32px] mb-[32px]'>
                 <CustomButton href={'http://{baseUrl}/{shareKey}'}>
-                    Click here to view on {config.appName}!
+                    Click here to view on {config[partner].appName}!
                 </CustomButton>
             </Section>
         </Template>

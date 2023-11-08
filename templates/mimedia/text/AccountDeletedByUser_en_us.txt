@@ -1,0 +1,20 @@
+mimedia
+
+
+YOUR ACCOUNT HAS BEEN DELETED
+
+Hi {firstName}!
+
+You deleted your Mimedia account and we are very sorry about that. We hope that
+you will return to us again.
+
+The Mimedia Team
+
+--------------------------------------------------------------------------------
+
+If you did not make this change, please check your account details and contact
+us at support@mimedia.com [support@mimedia.com] if you believe someone has made
+an unauthorized change.
+
+Home [https://portal.mimedia.com/orbic]|Support
+[https://orbic.us/pages/contact-us]

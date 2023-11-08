@@ -5,7 +5,8 @@
         "target": "ES2020",
         "jsx": "react",
         "strictNullChecks": true,
-        "strictFunctionTypes": true
+        "strictFunctionTypes": true,
+        "allowJs": true,
     },
-    "exclude": ["node_modules", "**/node_modules/*"]
+    "exclude": ["node_modules", "**/node_modules/*", ".react-email"]
 }
