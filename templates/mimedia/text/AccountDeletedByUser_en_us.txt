@@ -1,8 +1,7 @@
 mimedia
 
 
-YOUR ACCOUNT HAS BEEN DELETEDTHE MIMEDIA TEAM SUPPORT@MIMEDIA.COM
-[support@mimedia.com] JAPAN
+YOUR ACCOUNT HAS BEEN DELETED
 
 Hi {firstName}!
 
@@ -14,8 +13,8 @@ The Mimedia Team
 --------------------------------------------------------------------------------
 
 If you did not make this change, please check your account details and contact
-us at support@mimedia.com [support@mimedia.com] if you believe someone has made
-an unauthorized change.
+us at support@mimedia.com [support@mimedia.com] if you believe someone has
+madean unauthorized change.
 
-Home [https://portal.mimedia.com/orbic]|Support
-[https://orbic.us/pages/contact-us]
+Home [https://portal.mimedia.com/]|Support
+[http://support.mimedia.com/]|Feedback [http://support.mimedia.com/contact-us/]

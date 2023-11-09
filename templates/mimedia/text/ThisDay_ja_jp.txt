@@ -11,4 +11,5 @@
 当社からのこのようなメールを今後、受け取りたくない場合、配信を停止してくださ.
 [https://portal.mimedia.com/#account/unsubscribe?emailType=this_day]
 
-ホーム [https://portal.mimedia.com/orbic]|サポート [https://orbic.us/pages/contact-us]
+Home [https://portal.mimedia.com/orbic]|Support
+[https://orbic.us/pages/contact-us]

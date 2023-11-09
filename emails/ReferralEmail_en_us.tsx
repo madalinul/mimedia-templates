@@ -1,13 +1,12 @@
-import React from 'react';
-import Template from './components/Template';
-import { Heading, Text, Row, Column, Img } from '@react-email/components';
+import { Column, Heading, Img, Row, Text } from '@react-email/components';
 import CustomButton from './components/CustomButton';
+import Template from './components/Template';
 import config from './config/config';
 import { EmailProps } from './config/types';
 
 const ReferralEmail = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
-        <Template language='en' partner={partner}>
+        <Template language={language} partner={partner}>
             <Heading className='text-[24px] font-normal text-center p-0 mt-[30px] mx-0 mb-4 leading-small'>
                 <span className='text-brand'>{'{senderName}'}</span> thought you'd love{' '}
                 {config[partner].appName}!

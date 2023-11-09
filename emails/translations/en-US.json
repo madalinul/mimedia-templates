@@ -1,5 +1,32 @@
 {
-    "general": {
-        "theTeam": "The team"
+    "common": {
+        "home": "Home",
+        "support": "Support",
+        "feedback": "Feedback",
+        "hiName": "Hi {firstName}!",
+        "theTeam": "The {{appName}} Team",
+        "unauthorizedChange": "If you did not make this change, please check your account details and contact us at <link1/> if you believe someone has madean unauthorized change.",
+        "cheers": "Cheers,",
+        "contactUs": "Please contact us at <link1/> for more information."
+    },
+    "accountDeleted": {
+        "yourAccount": "Your account has been deleted.",
+        "deleteSorry": "You deleted your {{appName}} account and we are very sorry about that. We hope that you will return to us again."
+    },
+    "defaultCardChange": {
+        "billingUpdated": "Your billing has been updated.",
+        "ourRecords": "Our records show that you have updated your billing information. If this is correct, then you are all set!"
+    },
+    "fdInvite": {
+        "youBeenInvited": "You've been invited to the <brand>{fdName}</brand>",
+        "permission": "<strong>{inviterFirstName}</strong> has given you permission to contribute, comment and chat with other members of the <strong>{fdName}</strong>",
+        "join": "Join now!"
+    },
+    "pmtDeclined": {
+        "notSuccessful": "Your payment for {planDescription} was not successful",
+        "declined": "It seems like your payment, made on {paymentDate} for {paymentAmount}, was declined. This could be due to a change in your card number or your card expiring, cancelation of your credit card, or the bank not recognizing the payment and taking action to prevent it.",
+        "checkCard": "Please check your card information on your Billing page or contact support team.",
+        "viewBilling": "View billing info",
+        "contactSupport": "Contact support"
     }
 }

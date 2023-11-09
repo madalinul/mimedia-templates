@@ -10,5 +10,5 @@ for {prevProductName}, as usual.
 
 The Mimedia Team
 
-Home [https://portal.mimedia.com/orbic]|Support
-[https://orbic.us/pages/contact-us]
+Home [https://portal.mimedia.com/]|Support
+[http://support.mimedia.com/]|Feedback [http://support.mimedia.com/contact-us/]

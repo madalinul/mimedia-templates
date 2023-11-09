@@ -6,4 +6,5 @@ http://{baseUrl}/{shareKey}
 
 Mimedia で見るにはこちらをクリックしてください！ [http://{baseUrl}/{shareKey}]
 
-ホーム [https://portal.mimedia.com/orbic]|サポート [https://orbic.us/pages/contact-us]
+Home [https://portal.mimedia.com/orbic]|Support
+[https://orbic.us/pages/contact-us]

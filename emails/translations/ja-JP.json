@@ -1,5 +1,32 @@
 {
-    "general": {
-        "theTeam": "The {{teamName}} team <link1 /> Japan"
+    "common": {
+        "home": "ホーム",
+        "support": "サポート",
+        "feedback": "Feedback",
+        "hiName": "{firstName} 様",
+        "theTeam": "{{appName}} チーム",
+        "unauthorizedChange": "お客様側でこの変更を行わなかった場合、アカウントの詳細を再度ご確認いただき、不正な変更が行われたと思われる場合は、<link1/> までご連絡ください",
+        "cheers": "よろしくお願いいたします。",
+        "contactUs": "サポート- <link1/> までご連絡ください。"
+    },
+    "accountDeleted": {
+        "yourAccount": "お客様のアカウントが削除されました",
+        "deleteSorry": "{{appName}}のアカウントを削除されたとのこと、残念です。またのご利用をお待ち申し上げております。"
+    },
+    "defaultCardChange": {
+        "billingUpdated": "課金内容が更新されました。",
+        "ourRecords": "当社側にて、お客様の請求情報更新が確認されました。これがお客様によるものであれば、これで手続きは完了となります。 よろしくお願いいたします。"
+    },
+    "fdInvite": {
+        "youBeenInvited": "<brand>{fdName}</brand> に招待されました。",
+        "permission": "<strong>{inviterFirstName}</strong> はあなたに{fdName}での投稿、コメント、 <strong>{fdName}</strong> の他のメンバーとのチャットを許可しています。",
+        "join": "今すぐ参加しましょう！"
+    },
+    "pmtDeclined": {
+        "notSuccessful": "{planDescription} の支払いが行われませんでした。",
+        "declined": "{paymentDate} に行われた {paymentAmount} に対するあなたの支払いは、拒否されたようです。カード番号のご変更やカードの有効期限切れ、クレジットカードのキャンセル、銀行が支払いを認識せずカード決済を拒否した、などが原因として考えられます。",
+        "checkCard": "請求ページでカード情報をご確認いただくか、サポートチームまでご連絡ください。 よろしくお願いいたします。",
+        "viewBilling": "課金情報を見る",
+        "contactSupport": "サポートに連絡する"
     }
 }

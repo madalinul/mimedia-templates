@@ -1,5 +1,4 @@
-YOUR ACCOUNT HAS BEEN DELETEDTHE ORBIC CLOUD TEAM CLOUDSUPPORT@ORBIC.US
-[cloudsupport@orbic.us] JAPAN
+YOUR ACCOUNT HAS BEEN DELETED
 
 Hi {firstName}!
 
@@ -12,7 +11,7 @@ The Orbic Cloud Team
 
 If you did not make this change, please check your account details and contact
 us at cloudsupport@orbic.us [cloudsupport@orbic.us] if you believe someone has
-made an unauthorized change.
+madean unauthorized change.
 
 Home [https://portal.mimedia.com/orbic]|Support
 [https://orbic.us/pages/contact-us]

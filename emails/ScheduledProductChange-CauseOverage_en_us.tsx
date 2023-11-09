@@ -1,5 +1,4 @@
 import { Text } from '@react-email/components';
-import React from 'react';
 import Template from './components/Template';
 import config from './config/config';
 import { EmailProps } from './config/types';
@@ -9,7 +8,7 @@ const ScheduledProductChangeCauseOverage = ({
     language = 'en',
 }: EmailProps) => {
     return (
-        <Template language='en' partner={partner}>
+        <Template language={language} partner={partner}>
             <Text className='mb-2'>{'Hi {firstName}!'}</Text>
             <Text className='mb-2'>
                 {`You are currently using {currentUseGB} Gb of cloud storage. The storage limit for the {futureProductName} is {futureLimitGB} Gb. 

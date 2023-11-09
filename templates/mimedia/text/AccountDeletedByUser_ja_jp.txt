@@ -1,3 +1,6 @@
+mimedia
+
+
 お客様のアカウントが削除されました
 
 {firstName}様
@@ -11,4 +14,5 @@ Mimedia チーム
 お客様側でこの変更を行わなかった場合、アカウントの詳細を再度ご確認いただき、不正な変更が行われたと思われる場合は、support@mimedia.com
 [support@mimedia.com] までご連絡ください
 
-ホーム [https://portal.mimedia.com/orbic]|サポート [https://orbic.us/pages/contact-us]
+ホーム [https://portal.mimedia.com/]|サポート [http://support.mimedia.com/]|Feedback
+[http://support.mimedia.com/contact-us/]

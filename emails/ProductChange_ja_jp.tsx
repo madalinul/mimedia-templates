@@ -1,5 +1,4 @@
 import { Heading, Hr, Text } from '@react-email/components';
-import React from 'react';
 import CustomLink from './components/CustomLink';
 import SupportLink from './components/SupportLink';
 import Template from './components/Template';
@@ -8,7 +7,7 @@ import { EmailProps } from './config/types';
 
 const ProductChange = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
-        <Template language='ja' partner='orbic'>
+        <Template language={language} partner='orbic'>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>
                 ストレージプランが更新されました。
             </Heading>

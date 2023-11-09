@@ -6,6 +6,7 @@ const orbicConfig: PartnerConfig = {
     supportEmail: 'cloudsupport@orbic.us',
     brand: '#0a2240',
     textDark: '#444646',
+    appUrl: 'https://portal.mimedia.com/orbic',
     logo: (
         <Img
             src={'https://portal.mimedia.com/logos/orbic-logo.png'}
@@ -21,6 +22,7 @@ const mimediaConfig: PartnerConfig = {
     supportEmail: 'support@mimedia.com',
     brand: '#01a19f',
     textDark: '#8f9292',
+    appUrl: 'https://portal.mimedia.com/',
     logo: (
         <Row>
             <Column align='center' style={{ verticalAlign: 'middle' }}>
@@ -52,6 +54,7 @@ const tmcellConfig: PartnerConfig = {
 
 type PartnerConfig = {
     appName: string;
+    appUrl: string;
     supportEmail: string;
     brand: string;
     textDark: string;

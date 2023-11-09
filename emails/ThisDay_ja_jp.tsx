@@ -1,5 +1,4 @@
 import { Column, Heading, Hr, Img, Row, Section, Text } from '@react-email/components';
-import * as React from 'react';
 import CustomButton from './components/CustomButton';
 import CustomLink from './components/CustomLink';
 import Template from './components/Template';
@@ -8,7 +7,7 @@ import { EmailProps } from './config/types';
 
 export const ThisDay = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
-        <Template language='ja' partner='orbic'>
+        <Template language={language} partner='orbic'>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>
                 <span className='text-brand'>{'{year}のこの{scope} '}</span>
                 の思い出を見てみましょう

@@ -1,6 +1,6 @@
 {PLANDESCRIPTION} の支払いが行われませんでした。
 
-{firstName} 様、
+{firstName} 様
 
 {paymentDate} に行われた {paymentAmount}
 に対するあなたの支払いは、拒否されたようです。カード番号のご変更やカードの有効期限切れ、クレジットカードのキャンセル、銀行が支払いを認識せずカード決済を拒否した、などが原因として考えられます。
@@ -11,7 +11,7 @@
 
 Orbic Cloud チーム
 
-課金情報を見る [http://portal.mimedia.com/orbic]サポートに連絡する [cloudsupport@orbic.us]
+課金情報を見る [https://portal.mimedia.com/orbic]サポートに連絡する [cloudsupport@orbic.us]
 
 --------------------------------------------------------------------------------
 
