@@ -4,7 +4,7 @@ import { Heading, Text, Row, Column, Img } from '@react-email/components';
 import CustomButton from './components/CustomButton';
 import { EmailProps } from './config/types';
 
-const FdInvite = ({ partner = 'mimedia', language='en' }: EmailProps) => {
+const FdInvite = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
         <Template language='en' partner={partner}>
             <Row>

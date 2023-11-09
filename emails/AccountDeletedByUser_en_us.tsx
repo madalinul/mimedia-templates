@@ -4,12 +4,15 @@ import SupportLink from './components/SupportLink';
 import Template from './components/Template';
 import config from './config/config';
 import { EmailProps } from './config/types';
+import { getInstanceFromLanguage, i18nEn } from './translations/translations';
+import { Trans } from 'react-i18next';
 
-const AccountDeletedByUser = ({ partner = 'mimedia', language='en' }: EmailProps) => {
+const AccountDeletedByUser = ({ partner = 'mimedia', language = 'ja' }: EmailProps) => {
     return (
         <Template partner={partner} language='en'>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>
                 Your account has been deleted
+                <Trans i18n={getInstanceFromLanguage(language)} values={{teamName:config[partner].appName }}  i18nKey={'general.theTeam'} components={{link1: <SupportLink link={config[partner].supportEmail} />}} />
             </Heading>
             <Text className='mb-2'>{'Hi {firstName}!'}</Text>
             <Text className='mb-2'>
@@ -20,7 +23,8 @@ const AccountDeletedByUser = ({ partner = 'mimedia', language='en' }: EmailProps
             <Hr className='border border-solid border-[#eaeaea] my-[24px] mx-0 w-full' />
             <Text className='text-xs'>
                 If you did not make this change, please check your account details and contact us at{' '}
-                <SupportLink link={config[partner].supportEmail} /> if you believe someone has made an unauthorized change.
+                <SupportLink link={config[partner].supportEmail} /> if you believe someone has made
+                an unauthorized change.
             </Text>
         </Template>
     );

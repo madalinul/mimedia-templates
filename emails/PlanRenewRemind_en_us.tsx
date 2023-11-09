@@ -6,7 +6,7 @@ import Template from './components/Template';
 import config from './config/config';
 import { EmailProps } from './config/types';
 
-const PlanRenewRemind = ({ partner = 'mimedia', language='en' }: EmailProps) => {
+const PlanRenewRemind = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
         <Template language='en' partner={partner}>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>
@@ -24,7 +24,8 @@ const PlanRenewRemind = ({ partner = 'mimedia', language='en' }: EmailProps) => 
             <Hr className='border border-solid border-[#eaeaea] my-[24px] mx-0 w-full' />
             <Text className='text-xs'>
                 If you did not make this change, please check your account details and contact us at{' '}
-                <SupportLink link={config[partner].supportEmail} /> if you believe someone has made an unauthorized change.
+                <SupportLink link={config[partner].supportEmail} /> if you believe someone has made
+                an unauthorized change.
             </Text>
         </Template>
     );

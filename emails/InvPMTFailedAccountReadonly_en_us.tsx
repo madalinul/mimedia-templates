@@ -4,7 +4,7 @@ import Template from './components/Template';
 import config from './config/config';
 import { EmailProps } from './config/types';
 
-const InvPMTFailedAccountReadonly = ({ partner = 'mimedia', language='en' }: EmailProps) => {
+const InvPMTFailedAccountReadonly = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
         <Template language='en' partner={partner}>
             <Text className='mb-2'>{'Hi {firstName}!'}</Text>

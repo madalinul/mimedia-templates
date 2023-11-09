@@ -6,7 +6,7 @@
         "jsx": "react",
         "strictNullChecks": true,
         "strictFunctionTypes": true,
-        "allowJs": true,
+        "allowJs": true
     },
     "exclude": ["node_modules", "**/node_modules/*", ".react-email"]
 }

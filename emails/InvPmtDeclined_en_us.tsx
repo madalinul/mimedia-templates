@@ -6,7 +6,7 @@ import Template from './components/Template';
 import config from './config/config';
 import { EmailProps } from './config/types';
 
-const InvPmtDeclined = ({ partner = 'mimedia', language='en' }: EmailProps) => {
+const InvPmtDeclined = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
         <Template language='en' partner={partner}>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>
@@ -25,11 +25,14 @@ const InvPmtDeclined = ({ partner = 'mimedia', language='en' }: EmailProps) => {
                 <CustomButton href='http://portal.mimedia.com/orbic' className='inline-block mr-4'>
                     View billing info
                 </CustomButton>
-                <CustomButton href={`mailto:${config[partner].supportEmail}`}>Contact support</CustomButton>
+                <CustomButton href={`mailto:${config[partner].supportEmail}`}>
+                    Contact support
+                </CustomButton>
             </Section>
             <Hr className='border border-solid border-[#eaeaea] my-[24px] mx-0 w-full' />
             <Text className='text-xs'>
-                Please contact us at <SupportLink link={config[partner].supportEmail} /> for more information.
+                Please contact us at <SupportLink link={config[partner].supportEmail} /> for more
+                information.
             </Text>
         </Template>
     );

@@ -5,7 +5,7 @@ import CustomButton from './components/CustomButton';
 import config from './config/config';
 import { EmailProps } from './config/types';
 
-const ReferralEmail = ({ partner = 'mimedia', language='en' }: EmailProps) => {
+const ReferralEmail = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
         <Template language='en' partner={partner}>
             <Heading className='text-[24px] font-normal text-center p-0 mt-[30px] mx-0 mb-4 leading-small'>
@@ -29,8 +29,8 @@ const ReferralEmail = ({ partner = 'mimedia', language='en' }: EmailProps) => {
                 </Column>
             </Row>
             <Text>
-                Have multiple devices? Not a problem. {config[partner].appName} is device agnostic. That
-                means it communicates between Apple and Android devices seamlessly.
+                Have multiple devices? Not a problem. {config[partner].appName} is device agnostic.
+                That means it communicates between Apple and Android devices seamlessly.
             </Text>
             <Text>
                 Using too many apps to save and share your memories? Import everything from apps

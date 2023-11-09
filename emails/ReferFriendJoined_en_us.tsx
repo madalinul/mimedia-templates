@@ -5,7 +5,7 @@ import Template from './components/Template';
 import config from './config/config';
 import { EmailProps } from './config/types';
 
-const ReferFriendJoined = ({ partner = 'mimedia', language='en' }: EmailProps) => {
+const ReferFriendJoined = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
         <Template language='en' partner={partner}>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>

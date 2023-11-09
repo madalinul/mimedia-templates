@@ -9,7 +9,7 @@ export type Partner = 'mimedia' | 'orbic' | 'tmcell';
 export const Template = ({
     children,
     language = 'en',
-    partner=  'orbic',
+    partner = 'orbic',
 }: {
     children: React.ReactNode;
     language: Languages;
@@ -35,9 +35,7 @@ export const Template = ({
                     style={{ fontSize: 16 }}
                 >
                     <Container className='border border-solid border-[#eaeaea] rounded my-[40px] mx-auto p-[20px] w-[565px]'>
-                        <Section className='mb-[24px]'>
-                           {partnersConfig[partner].logo}
-                        </Section>
+                        <Section className='mb-[24px]'>{partnersConfig[partner].logo}</Section>
                         {children}
                     </Container>
                     <Footer partner={partner} language={language} />

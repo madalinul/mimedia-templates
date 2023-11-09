@@ -5,7 +5,7 @@ import Template from './components/Template';
 import config from './config/config';
 import { EmailProps } from './config/types';
 
-export const SharedMediaItem = ({ partner = 'mimedia', language='en' }: EmailProps) => {
+export const SharedMediaItem = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
         <Template language='ja' partner='orbic'>
             <Heading className='leading-8 text-[24px] font-normal text-center p-0 my-[30px] mx-0 l'>

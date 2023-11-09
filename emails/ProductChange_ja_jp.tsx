@@ -6,7 +6,7 @@ import Template from './components/Template';
 import config from './config/config';
 import { EmailProps } from './config/types';
 
-const ProductChange = ({ partner = 'mimedia', language='en' }: EmailProps) => {
+const ProductChange = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
         <Template language='ja' partner='orbic'>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>

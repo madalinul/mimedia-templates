@@ -23,14 +23,16 @@ const mimediaConfig: PartnerConfig = {
     textDark: '#8f9292',
     logo: (
         <Row>
-            <Column align='center' style={{verticalAlign: 'middle'}}>
+            <Column align='center' style={{ verticalAlign: 'middle' }}>
                 <Img
                     src={'https://portal.mimedia.com/logos/mimedia-logo.png'}
                     width='80'
                     alt='Logo'
                     className='inline-block align-bottom'
                 />
-                <Text className='inline-block text-3xl'><span className='text-[#01a19f]'>mi</span>media</Text>
+                <Text className='inline-block text-3xl'>
+                    <span className='text-[#01a19f]'>mi</span>media
+                </Text>
             </Column>
         </Row>
     ),
