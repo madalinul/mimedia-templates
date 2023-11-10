@@ -28,5 +28,16 @@
         "checkCard": "Please check your card information on your Billing page or contact support team.",
         "viewBilling": "View billing info",
         "contactSupport": "Contact support"
+    },
+    "accountSuspended": {
+        "accountSuspended": "Your account has been suspended and switched to read only mode. Please upgrade your account to regain full access to your media."
+    },
+    "planRenewRemind": {
+        "planRenew": "Plan renew scheduled on renewDate",
+        "remindPlan": "Just wanted to remind you that your current plan - {planName} is about to be renewed on renewDate. You can check your subscription and plan settings in your <link1>account</link1>."
+    },
+    "productChange": {
+        "storageUpdated": "Your Storage plan has been updated.",
+        "updatedPlan": "Our records show that you updated your storage plan from a {prevProductName} to a <strong>{currProductName}</strong> account on {changeTime}. Click <link1>here</link1> to access billing details regarding your plan."
     }
 }

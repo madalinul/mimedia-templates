@@ -17,11 +17,7 @@ const InvPmtDeclined = ({ partner = 'mimedia', language = 'en' }: EmailProps) =>
                 />
             </Heading>
             <Text className='mb-2'>
-                <Trans
-                    i18n={getInstanceFromLanguage(language)}
-                    values={{ teamName: config[partner].appName }}
-                    i18nKey={'common.hiName'}
-                />
+                <Trans i18n={getInstanceFromLanguage(language)} i18nKey={'common.hiName'} />
             </Text>
             <Text className='mb-2'>
                 <Trans i18n={getInstanceFromLanguage(language)} i18nKey={'pmtDeclined.declined'} />

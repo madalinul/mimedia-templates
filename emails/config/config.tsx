@@ -22,7 +22,7 @@ const mimediaConfig: PartnerConfig = {
     supportEmail: 'support@mimedia.com',
     brand: '#01a19f',
     textDark: '#8f9292',
-    appUrl: 'https://portal.mimedia.com/',
+    appUrl: 'https://portal.mimedia.com',
     logo: (
         <Row>
             <Column align='center' style={{ verticalAlign: 'middle' }}>

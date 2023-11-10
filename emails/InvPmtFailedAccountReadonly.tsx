@@ -1,17 +1,29 @@
 import { Text } from '@react-email/components';
+import { Trans } from 'react-i18next';
 import Template from './components/Template';
 import config from './config/config';
 import { EmailProps } from './config/types';
+import { getInstanceFromLanguage } from './translations/translations';
 
 const InvPMTFailedAccountReadonly = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
         <Template language={language} partner={partner}>
-            <Text className='mb-2'>{'Hi {firstName}!'}</Text>
             <Text className='mb-2'>
-                Your account has been suspended and switched to read only mode. Please upgrade your
-                account to regain full access to your media.
+                <Trans i18n={getInstanceFromLanguage(language)} i18nKey={'common.hiName'} />
             </Text>
-            <Text className='mb-2'>The {config[partner].appName} Team</Text>
+            <Text className='mb-2'>
+                <Trans
+                    i18n={getInstanceFromLanguage(language)}
+                    i18nKey={'accountSuspended.accountSuspended'}
+                />
+            </Text>
+            <Text className='mb-2'>
+                <Trans
+                    i18n={getInstanceFromLanguage(language)}
+                    values={{ appName: config[partner].appName }}
+                    i18nKey={'common.theTeam'}
+                />
+            </Text>
         </Template>
     );
 };

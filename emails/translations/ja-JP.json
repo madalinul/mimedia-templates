@@ -28,5 +28,9 @@
         "checkCard": "請求ページでカード情報をご確認いただくか、サポートチームまでご連絡ください。 よろしくお願いいたします。",
         "viewBilling": "課金情報を見る",
         "contactSupport": "サポートに連絡する"
+    },
+    "productChange": {
+        "storageUpdated": "ストレージプランが更新されました。",
+        "updatedPlan": "が{changeTime}に、{prevProductName}から<strong>{currProductName}</strong>アカウントにストレージプランを更新されたことが当社側にて確認されました。<link1>ここをクリックすると</link1> プランに関する請求の詳細が表示されます。"
     }
 }

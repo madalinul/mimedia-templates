@@ -16,7 +16,7 @@ Cheers,
 
 The Mimedia Team
 
-View billing info [https://portal.mimedia.com/]Contact support
+View billing info [https://portal.mimedia.com]Contact support
 [support@mimedia.com]
 
 --------------------------------------------------------------------------------

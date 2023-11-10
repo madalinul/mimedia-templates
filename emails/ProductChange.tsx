@@ -1,19 +1,19 @@
 import { Heading, Hr, Text } from '@react-email/components';
 import { Trans } from 'react-i18next';
+import CustomLink from './components/CustomLink';
 import SupportLink from './components/SupportLink';
 import Template from './components/Template';
 import config from './config/config';
 import { EmailProps } from './config/types';
 import { getInstanceFromLanguage } from './translations/translations';
 
-const AccountDeletedByUser = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
+const ProductChange = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
-        <Template partner={partner} language={language}>
+        <Template language={language} partner={partner}>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>
                 <Trans
                     i18n={getInstanceFromLanguage(language)}
-                    values={{ teamName: config[partner].appName }}
-                    i18nKey={'accountDeleted.yourAccount'}
+                    i18nKey={'productChange.storageUpdated'}
                 />
             </Heading>
             <Text className='mb-2'>
@@ -22,8 +22,10 @@ const AccountDeletedByUser = ({ partner = 'mimedia', language = 'en' }: EmailPro
             <Text className='mb-2'>
                 <Trans
                     i18n={getInstanceFromLanguage(language)}
-                    values={{ appName: config[partner].appName }}
-                    i18nKey={'accountDeleted.deleteSorry'}
+                    i18nKey={'productChange.updatedPlan'}
+                    components={{
+                        link1: <CustomLink href={`${config[partner].appUrl}/#/account/billing`} />,
+                    }}
                 />
             </Text>
             <Text className='mb-2'>
@@ -45,4 +47,4 @@ const AccountDeletedByUser = ({ partner = 'mimedia', language = 'en' }: EmailPro
     );
 };
 
-export default AccountDeletedByUser;
+export default ProductChange;
