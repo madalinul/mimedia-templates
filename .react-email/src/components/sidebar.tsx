@@ -3,6 +3,7 @@ import classnames from 'classnames';
 import { LayoutGroup, motion } from 'framer-motion';
 import Link from 'next/link';
 import * as React from 'react';
+import { Button } from './button';
 import { Heading } from './heading';
 import { Logo } from './logo';
 
@@ -24,6 +25,10 @@ export const Sidebar = React.forwardRef<SidebarElement, Readonly<SidebarProps>>(
       >
         <div className="h-[70px] flex items-center">
           <Logo />
+        </div>
+
+        <div>
+                <Button style={{width: '100%'}}><Link style={{margin: '1rem 0'}} href={`/generate/`}>Generate Templates</Link></Button>
         </div>
 
         <nav className="flex flex-col gap-4">

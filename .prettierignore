@@ -12,4 +12,4 @@ ui-debug.log
 **/functions/node_modules/**
 functions
 functoins/node_modules
-.react-email
+# .react-email
