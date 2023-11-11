@@ -7,7 +7,9 @@
         "theTeam": "The {{appName}} Team",
         "unauthorizedChange": "If you did not make this change, please check your account details and contact us at <link1/> if you believe someone has madean unauthorized change.",
         "cheers": "Cheers,",
-        "contactUs": "Please contact us at <link1/> for more information."
+        "contactUs": "Please contact us at <link1/> for more information.",
+        "clickToView": "Click here to view on {{appName}}!",
+        "unsubscribe": "If you'd rather not receive these emails from MiMedia in the future, please <link1>unsubscribe.</link1>"
     },
     "accountDeleted": {
         "yourAccount": "Your account has been deleted.",
@@ -55,5 +57,12 @@
     "productChangeNotification": {
         "overageMessage": "You are currently using {currentUseGB} Gb of cloud storage. The storage limit for the {futureProductName} is {futureLimitGB} Gb.<br/><br/> Please remove {removeGB} of data to downgrade. Otherwise your request for plan change will NOT take effect, and you will be charged on {scheduledForTime} for {prevProductName}, as usual.",
         "standardMessage": "You are scheduled to be switched over on {scheduledForTime} from {prevProductName} to {futureProductName} with {futureLimitGB} Gb. <br/><br/> Please make sure to not go over {futureLimitGB} Gb, otherwise your request for plan change will NOT take effect at that time,and you will be charged on {scheduledForTime} for {prevProductName}, as usual."
+    },
+    "shareMediaItem": {
+        "sharedWithYou": "{senderFirstName} shared {sharedItemDescription} with you <brand>{collectionName}</brand>"
+    },
+    "thisDay": {
+        "checkOut": "Check out your memories from <brand>this {scope} in {year}</brand>",
+        "takeTrip": "Hey {userName}, take a trip down memory lane with these photos."
     }
 }

@@ -7,7 +7,8 @@
         "theTeam": "{{appName}} チーム",
         "unauthorizedChange": "お客様側でこの変更を行わなかった場合、アカウントの詳細を再度ご確認いただき、不正な変更が行われたと思われる場合は、<link1/> までご連絡ください",
         "cheers": "よろしくお願いいたします。",
-        "contactUs": "サポート- <link1/> までご連絡ください。"
+        "contactUs": "サポート- <link1/> までご連絡ください。",
+        "clickToView": "{{appName}} で見るにはこちらをクリックしてください！"
     },
     "accountDeleted": {
         "yourAccount": "お客様のアカウントが削除されました",
@@ -51,5 +52,12 @@
     "productChangeNotification": {
         "overageMessage": "現在{currentUseGB}GBのクラウドストレージを使用しています。{futureProductName}のストレージ制限は{futureLimitGB}GBです。<br/><br/>ダウングレードするには{removeGB}のデータを削除してください。それ以外の場合、プラン変更のリクエストは有効にならず、{scheduledForTime}に通常通り{prevProductName}の料金が請求されます。",
         "standardMessage": "{scheduledForTime}に{prevProductName}から{futureProductName}に{futureLimitGB}GBで切り替わる予定です。<br/><br/>{futureLimitGB}GBを超えないようにしてください。そうでない場合、プラン変更のリクエストはその時点で有効にならず、通常通り{scheduledForTime}に{prevProductName}の料金が請求されます。"
+    },
+    "shareMediaItem": {
+        "sharedWithYou": "{senderFirstName}は{sharedItemDescription}をあなたと共有しました。{collectionName}"
+    },
+    "thisDay": {
+        "checkOut": "<brand>{year}のこの{scope}</brand>の思い出を見てみましょう。",
+        "takeTrip": "{userName}様、これらの写真で思い出を振り返ってみましょう。"
     }
 }

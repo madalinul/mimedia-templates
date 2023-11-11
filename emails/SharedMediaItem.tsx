@@ -1,15 +1,20 @@
 import { Column, Heading, Img, Link, Row, Section, Text } from '@react-email/components';
+import { Trans } from 'react-i18next';
 import CustomButton from './components/CustomButton';
 import Template from './components/Template';
 import config from './config/config';
 import { EmailProps } from './config/types';
+import { getInstanceFromLanguage } from './translations/translations';
 
 export const SharedMediaItem = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
-        <Template language={language} partner='orbic'>
+        <Template language={language} partner={partner}>
             <Heading className='leading-8 text-[24px] font-normal text-center p-0 my-[30px] mx-0 l'>
-                <span>{'{senderFirstName}'}</span> は <span>{'{sharedItemDescription}'}</span>{' '}
-                をあなたと共有しました。<span className='text-brand'>{'{collectionName}'}</span>
+                <Trans
+                    i18n={getInstanceFromLanguage(language)}
+                    components={{ brand: <span className='text-brand' /> }}
+                    i18nKey={'shareMediaItem.sharedWithYou'}
+                />
             </Heading>
             <Section>
                 <Row>
@@ -35,7 +40,11 @@ export const SharedMediaItem = ({ partner = 'mimedia', language = 'en' }: EmailP
             </Section>
             <Section className='text-center mt-[32px] mb-[32px]'>
                 <CustomButton href={'http://{baseUrl}/{shareKey}'}>
-                    {config[partner].appName} で見るにはこちらをクリックしてください！
+                    <Trans
+                        i18n={getInstanceFromLanguage(language)}
+                        values={{ appName: config[partner].appName }}
+                        i18nKey={'common.clickToView'}
+                    />
                 </CustomButton>
             </Section>
         </Template>
