@@ -1,0 +1,11 @@
+{firstName} 様
+
+
+
+{scheduledForTime}に{prevProductName}から{futureProductName}に{futureLimitGB}GBで切り替わる予定です。
+
+{futureLimitGB}GBを超えないようにしてください。そうでない場合、プラン変更のリクエストはその時点で有効にならず、通常通り{scheduledForTime}に{prevProductName}の料金が請求されます。
+
+Orbic Cloud チーム
+
+ホーム [https://portal.mimedia.com/orbic]|サポート [https://orbic.us/pages/contact-us]

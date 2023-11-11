@@ -1,7 +1,7 @@
-import { Body, Container, Head, Html, Img, Section, Tailwind } from '@react-email/components';
+import { Body, Container, Head, Html, Section, Tailwind } from '@react-email/components';
 import * as React from 'react';
-import Footer from './Footer';
 import partnersConfig from '../config/config';
+import Footer from './Footer';
 
 export type Languages = 'en' | 'ja';
 export type Partner = 'mimedia' | 'orbic' | 'tmcell';
@@ -9,7 +9,7 @@ export type Partner = 'mimedia' | 'orbic' | 'tmcell';
 export const Template = ({
     children,
     language = 'en',
-    partner = 'orbic',
+    partner = 'mimedia',
 }: {
     children: React.ReactNode;
     language: Languages;
