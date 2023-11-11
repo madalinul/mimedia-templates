@@ -1,0 +1,22 @@
+mimedia
+
+
+YOUR STORAGE PLAN HAS BEEN UPDATED.
+
+Hi {firstName}!
+
+Our records show that you updated your storage plan from a {prevProductName} to
+a {currProductName} account on {changeTime}. Click here
+[https://portal.mimedia.com/#/account/billing] to access billing details
+regarding your plan.
+
+The Mimedia Team
+
+--------------------------------------------------------------------------------
+
+If you did not make this change, please check your account details and contact
+us at support@mimedia.com [support@mimedia.com] if you believe someone has
+madean unauthorized change.
+
+Home [https://portal.mimedia.com/]|Support
+[http://support.mimedia.com/]|Feedback [http://support.mimedia.com/contact-us/]

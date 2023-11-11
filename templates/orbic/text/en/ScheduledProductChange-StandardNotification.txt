@@ -1,0 +1,15 @@
+Hi {firstName}!
+
+
+
+You are scheduled to be switched over on {scheduledForTime} from
+{prevProductName} to {futureProductName} with {futureLimitGB} Gb.
+
+Please make sure to not go over {futureLimitGB} Gb, otherwise your request for
+plan change will NOT take effect at that time,and you will be charged on
+{scheduledForTime} for {prevProductName}, as usual.
+
+The Orbic Cloud Team
+
+Home [https://portal.mimedia.com/orbic]|Support
+[https://orbic.us/pages/contact-us]

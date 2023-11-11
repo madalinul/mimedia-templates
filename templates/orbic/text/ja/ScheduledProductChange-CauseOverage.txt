@@ -1,0 +1,11 @@
+{firstName} 様
+
+
+
+現在{currentUseGB}GBのクラウドストレージを使用しています。{futureProductName}のストレージ制限は{futureLimitGB}GBです。
+
+ダウングレードするには{removeGB}のデータを削除してください。それ以外の場合、プラン変更のリクエストは有効にならず、{scheduledForTime}に通常通り{prevProductName}の料金が請求されます。
+
+Orbic Cloud チーム
+
+ホーム [https://portal.mimedia.com/orbic]|サポート [https://orbic.us/pages/contact-us]

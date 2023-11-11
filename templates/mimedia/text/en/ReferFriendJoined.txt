@@ -1,0 +1,14 @@
+mimedia
+
+
+YOU REALLY KNOW HOW TO PICK A WINNER!
+
+Hi {firstName}!
+
+Now that {userName} has accepted your invitation, we've added {storageBonus} to
+your Mimedia account. Now that's what we call teamwork!
+
+The Mimedia Team
+
+Home [https://portal.mimedia.com/]|Support
+[http://support.mimedia.com/]|Feedback [http://support.mimedia.com/contact-us/]

@@ -1,0 +1,9 @@
+お客様はセンスがおありです！
+
+{firstName} 様
+
+{userName}がお客様のご招待を承認されたため、Orbic Cloudアカウントに{storageBonus}が追加されました。
+
+Orbic Cloud チーム
+
+ホーム [https://portal.mimedia.com/orbic]|サポート [https://orbic.us/pages/contact-us]

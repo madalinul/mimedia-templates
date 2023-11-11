@@ -1,0 +1,15 @@
+{YEAR}のこの{SCOPE}の思い出を見てみましょう。
+
+{userName}様、これらの写真で思い出を振り返ってみましょう。
+
+
+
+Orbic Cloud で見るにはこちらをクリックしてください！ [http://{baseUrl}/{shareKey}]
+
+--------------------------------------------------------------------------------
+
+If you'd rather not receive these emails from MiMedia in the future, please
+unsubscribe.
+[https://portal.mimedia.com/#account/unsubscribe?emailType=this_day]
+
+ホーム [https://portal.mimedia.com/orbic]|サポート [https://orbic.us/pages/contact-us]

@@ -1,0 +1,7 @@
+{firstName} 様
+
+のアカウントは停止され、読み取り専用モードに変更されました。メディアへの完全なアクセスを回復するには、アカウントをアップグレードしてください。
+
+Orbic Cloud チーム
+
+ホーム [https://portal.mimedia.com/orbic]|サポート [https://orbic.us/pages/contact-us]

@@ -1,0 +1,17 @@
+YOUR BILLING HAS BEEN UPDATED.
+
+Hi {firstName}!
+
+Our records show that you have updated your billing information. If this is
+correct, then you are all set!
+
+The Orbic Cloud Team
+
+--------------------------------------------------------------------------------
+
+If you did not make this change, please check your account details and contact
+us at cloudsupport@orbic.us [cloudsupport@orbic.us] if you believe someone has
+madean unauthorized change.
+
+Home [https://portal.mimedia.com/orbic]|Support
+[https://orbic.us/pages/contact-us]

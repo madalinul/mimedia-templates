@@ -1,0 +1,14 @@
+お客様のアカウントが削除されました
+
+{firstName} 様
+
+Orbic Cloudのアカウントを削除されたとのこと、残念です。またのご利用をお待ち申し上げております。
+
+Orbic Cloud チーム
+
+--------------------------------------------------------------------------------
+
+お客様側でこの変更を行わなかった場合、アカウントの詳細を再度ご確認いただき、不正な変更が行われたと思われる場合は、cloudsupport@orbic.us
+[cloudsupport@orbic.us] までご連絡ください
+
+ホーム [https://portal.mimedia.com/orbic]|サポート [https://orbic.us/pages/contact-us]

@@ -1,0 +1,13 @@
+mimedia
+
+
+{SENDERFIRSTNAME} SHARED {SHAREDITEMDESCRIPTION} WITH YOU {COLLECTIONNAME}
+
+{messageText}
+
+http://{baseUrl}/{shareKey}
+
+Click here to view on Mimedia! [http://{baseUrl}/{shareKey}]
+
+Home [https://portal.mimedia.com/]|Support
+[http://support.mimedia.com/]|Feedback [http://support.mimedia.com/contact-us/]

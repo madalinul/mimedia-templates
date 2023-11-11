@@ -11,29 +11,37 @@ const partners = [
 export default async function Page() {
   const { emails } = await getEmails();
 
-  for (const partner of partners) {
-    for (const email of emails) {
-      const Email = (await import(`../../../../emails/${email}`)).default;
-      const markup = render(<Email partner={partner} />, { pretty: true });
-      const plainText = render(<Email partner={partner} />, {
-        plainText: true,
-      });
-      await fs.writeFile(
-        `../templates/${partner}/html/${email}.html`,
-        markup,
-        function (err) {
-          if (err) throw err;
-          console.log('Replaced!');
-        },
-      );
-      await fs.writeFile(
-        `../templates/${partner}/text/${email}.txt`,
-        plainText,
-        function (err) {
-          if (err) throw err;
-          console.log('Replaced!');
-        },
-      );
+  for (const partnerObj of partners) {
+    const partner = partnerObj.name;
+    for (const language of partnerObj.languages) {
+      for (const email of emails) {
+        const Email = (await import(`../../../../emails/${email}`)).default;
+        const markup = render(<Email partner={partner} language={language} />, {
+          pretty: true,
+        });
+        const plainText = render(
+          <Email partner={partner} language={language} />,
+          {
+            plainText: true,
+          },
+        );
+        await fs.writeFile(
+          `../templates/${partner}/html/${language}/${email}.html`,
+          markup,
+          function (err) {
+            if (err) throw err;
+            console.log('Replaced!');
+          },
+        );
+        await fs.writeFile(
+          `../templates/${partner}/text/${language}/${email}.txt`,
+          plainText,
+          function (err) {
+            if (err) throw err;
+            console.log('Replaced!');
+          },
+        );
+      }
     }
   }
 
