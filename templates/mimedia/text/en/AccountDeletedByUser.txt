@@ -5,10 +5,10 @@ YOUR ACCOUNT HAS BEEN DELETED.
 
 Hi {firstName}!
 
-You deleted your Mimedia account and we are very sorry about that. We hope that
+You deleted your MiMedia account and we are very sorry about that. We hope that
 you will return to us again.
 
-The Mimedia Team
+The MiMedia Team
 
 --------------------------------------------------------------------------------
 

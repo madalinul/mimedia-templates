@@ -3,12 +3,12 @@ mimedia
 
 {SENDERNAME} THOUGHT YOU'D LOVE MIMEDIA!
 
-With Mimedia, you have a personnal cloud designed to organize, manage, and share
+With MiMedia, you have a personnal cloud designed to organize, manage, and share
 all your photos, videos, music, and documents.
 
 
 
-Have multiple devices? Not a problem. Mimedia is device agnostic. That means it
+Have multiple devices? Not a problem. MiMedia is device agnostic. That means it
 communicates between Apple and Android devices seamlessly.
 
 Using too many apps to save and share your memories? Import everything from apps

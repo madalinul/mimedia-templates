@@ -7,7 +7,7 @@ Hey {userName}, take a trip down memory lane with these photos.
 
 
 
-Click here to view on Mimedia! [http://{baseUrl}/{shareKey}]
+Click here to view on MiMedia! [http://{baseUrl}/{shareKey}]
 
 --------------------------------------------------------------------------------
 

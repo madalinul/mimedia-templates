@@ -11,9 +11,12 @@ const partners = [
 export default async function Page() {
   const { emails } = await getEmails();
 
+  let htmlLinks = '';
   for (const partnerObj of partners) {
     const partner = partnerObj.name;
+    htmlLinks += `<div><h1>${partner}</h1><div style='display:flex;gap:1rem'>`;
     for (const language of partnerObj.languages) {
+      htmlLinks += `<div><h4 style='text-align:center'>${language}</h4><ul>`;
       for (const email of emails) {
         const Email = (await import(`../../../../emails/${email}`)).default;
         const markup = render(<Email partner={partner} language={language} />, {
@@ -25,6 +28,7 @@ export default async function Page() {
             plainText: true,
           },
         );
+        htmlLinks += `<li><a href='./templates/${partner}/html/${language}/${email}.html'>${email}</a></li>`;
         await fs.writeFile(
           `../templates/${partner}/html/${language}/${email}.html`,
           markup,
@@ -42,11 +46,40 @@ export default async function Page() {
           },
         );
       }
+      htmlLinks += `</ul></div>`;
     }
+    htmlLinks += `</div></div>`;
   }
+
+  createIndexFile(htmlLinks);
 
   return <Generate navItems={emails} />;
 }
+
+const createIndexFile = (linksContent) => {
+  const htmlContent = `
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimedia Templates</title>
+  </head>
+  <body>
+    <ul>
+      ${linksContent}
+    </ul>
+  </body>
+  </html>
+`;
+  fs.writeFile('../index.html', htmlContent, (err) => {
+    if (err) {
+      console.error('Error writing index.html:', err);
+    } else {
+      console.log('index.html created successfully!');
+    }
+  });
+};
 
 export async function generateMetadata({ params }) {
   return { title: `Generate Templates` };

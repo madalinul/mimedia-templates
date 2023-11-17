@@ -10,7 +10,7 @@ a {currProductName} account on {changeTime}. Click here
 [https://portal.mimedia.com/#/account/billing] to access billing details
 regarding your plan.
 
-The Mimedia Team
+The MiMedia Team
 
 --------------------------------------------------------------------------------
 

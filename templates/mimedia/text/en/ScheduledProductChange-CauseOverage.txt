@@ -13,7 +13,7 @@ Please remove {removeGB} of data to downgrade. Otherwise your request for plan
 change will NOT take effect, and you will be charged on {scheduledForTime} for
 {prevProductName}, as usual.
 
-The Mimedia Team
+The MiMedia Team
 
 Home [https://portal.mimedia.com/]|Support
 [http://support.mimedia.com/]|Feedback [http://support.mimedia.com/contact-us/]
