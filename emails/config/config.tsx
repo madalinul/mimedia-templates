@@ -18,7 +18,7 @@ const orbicConfig: PartnerConfig = {
 };
 
 const mimediaConfig: PartnerConfig = {
-    appName: 'Mimedia',
+    appName: 'MiMedia',
     supportEmail: 'support@mimedia.com',
     brand: '#01a19f',
     textDark: '#8f9292',
