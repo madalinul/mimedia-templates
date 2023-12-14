@@ -1,25 +1,26 @@
-YOUR PAYMENT FOR {PLANDESCRIPTION} WAS NOT SUCCESSFUL
+EL PAGO PARA {PLANDESCRIPTION} NO SE HA REALIZADO CORRECTAMENTE
 
-Hi {firstName}!
+¡Hola {firstName}!
 
-It seems like your payment, made on {paymentDate} for {paymentAmount}, was
-declined. This could be due to a change in your card number or your card
-expiring, cancelation of your credit card, or the bank not recognizing the
-payment and taking action to prevent it.
+Parece que su pago, realizado el {paymentDate} por {paymentAmount}, fue
+rechazado. Esto podría deberse a un cambio en el número de su tarjeta o a su
+vencimiento, la cancelación de su tarjeta de crédito o el banco no reconociendo
+el pago y tomando medidas para evitarlo.
 
-Please check your card information on your Billing page or contact support team.
+Por favor, verifique la información de su tarjeta en su página de facturación o
+contacte al equipo de soporte.
 
-Cheers,
+¡Salud!
 
-The Orbic Cloud Team
+El equipo de Orbic Cloud
 
-View billing info [https://portal.mimedia.com/orbic]Contact support
-[cloudsupport@orbic.us]
+Ver información de facturación [https://portal.mimedia.com/orbic]Contactar con
+soporte [cloudsupport@orbic.us]
 
 --------------------------------------------------------------------------------
 
-Please contact us at cloudsupport@orbic.us [cloudsupport@orbic.us] for more
-information.
+Por favor contáctenos en cloudsupport@orbic.us [cloudsupport@orbic.us] para
+obtener más información.
 
-Home [https://portal.mimedia.com/orbic]|Support
+Inicio [https://portal.mimedia.com/orbic]|Soporte
 [https://orbic.us/pages/contact-us]

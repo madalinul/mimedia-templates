@@ -1,15 +1,15 @@
-Hi {firstName}!
+¡Hola {firstName}!
 
 
 
-You are scheduled to be switched over on {scheduledForTime} from
-{prevProductName} to {futureProductName} with {futureLimitGB} Gb.
+Está programado que se cambie el {scheduledForTime} de {prevProductName} a
+{futureProductName} con {futureLimitGB} Gb.
 
-Please make sure to not go over {futureLimitGB} Gb, otherwise your request for
-plan change will NOT take effect at that time,and you will be charged on
-{scheduledForTime} for {prevProductName}, as usual.
+Asegúrese de no superar los {futureLimitGB} Gb, de lo contrario su solicitud de
+cambio de plan NO se llevará a cabo en ese momento, y se le cobrará el
+{prevProductName} en {scheduledForTime}, como de costumbre.
 
-The Orbic Cloud Team
+El equipo de Orbic Cloud
 
-Home [https://portal.mimedia.com/orbic]|Support
+Inicio [https://portal.mimedia.com/orbic]|Soporte
 [https://orbic.us/pages/contact-us]

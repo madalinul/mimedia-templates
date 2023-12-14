@@ -70,15 +70,4 @@ const MimediaFooter = ({ language }: { language: Languages }) => {
     );
 };
 
-const translations: Record<Languages, { home: string; support: string }> = {
-    en: {
-        home: 'Home',
-        support: 'Support',
-    },
-    ja: {
-        home: 'ホーム',
-        support: 'サポート',
-    },
-};
-
 export default Footer;

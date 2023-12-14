@@ -1,10 +1,10 @@
-{SENDERFIRSTNAME} SHARED {SHAREDITEMDESCRIPTION} WITH YOU {COLLECTIONNAME}
+{SENDERFIRSTNAME} COMPARTIÓ {SHAREDITEMDESCRIPTION} CONTIGO EN {COLLECTIONNAME}
 
 {messageText}
 
 http://{baseUrl}/{shareKey}
 
-Click here to view on Orbic Cloud! [http://{baseUrl}/{shareKey}]
+¡Haz clic aquí para ver en Orbic Cloud! [http://{baseUrl}/{shareKey}]
 
-Home [https://portal.mimedia.com/orbic]|Support
+Inicio [https://portal.mimedia.com/orbic]|Soporte
 [https://orbic.us/pages/contact-us]

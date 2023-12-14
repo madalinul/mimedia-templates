@@ -1,17 +1,17 @@
-YOUR BILLING HAS BEEN UPDATED.
+SE HA ACTUALIZADO SU FACTURACIÓN.
 
-Hi {firstName}!
+¡Hola {firstName}!
 
-Our records show that you have updated your billing information. If this is
-correct, then you are all set!
+Nuestros registros indican que ha actualizado su información de facturación. Si
+esto es correcto, ¡ya está todo listo!
 
-The Orbic Cloud Team
+El equipo de Orbic Cloud
 
 --------------------------------------------------------------------------------
 
-If you did not make this change, please check your account details and contact
-us at cloudsupport@orbic.us [cloudsupport@orbic.us] if you believe someone has
-madean unauthorized change.
+Si no realizaste este cambio, por favor verifica los detalles de tu cuenta y
+contáctanos en cloudsupport@orbic.us [cloudsupport@orbic.us] si crees que
+alguien realizó un cambio no autorizado.
 
-Home [https://portal.mimedia.com/orbic]|Support
+Inicio [https://portal.mimedia.com/orbic]|Soporte
 [https://orbic.us/pages/contact-us]

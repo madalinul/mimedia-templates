@@ -1,11 +1,11 @@
-YOU REALLY KNOW HOW TO PICK A WINNER!
+¡REALMENTE SABES CÓMO ELEGIR A UN GANADOR!
 
-Hi {firstName}!
+¡Hola {firstName}!
 
-Now that {userName} has accepted your invitation, we've added {storageBonus} to
-your Orbic Cloud account. Now that's what we call teamwork!
+Ahora que {userName} ha aceptado tu invitación, hemos añadido {storageBonus} a
+tu cuenta de Orbic Cloud. ¡Eso es trabajo en equipo!
 
-The Orbic Cloud Team
+El equipo de Orbic Cloud
 
-Home [https://portal.mimedia.com/orbic]|Support
+Inicio [https://portal.mimedia.com/orbic]|Soporte
 [https://orbic.us/pages/contact-us]

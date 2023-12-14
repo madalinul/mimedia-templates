@@ -1,18 +1,18 @@
-PLAN RENEW SCHEDULED ON RENEWDATE
+RENOVACIÓN DEL PLAN PROGRAMADA PARA LA FECHA DE RENOVACIÓN
 
-Hi {firstName}!
+¡Hola {firstName}!
 
-Just wanted to remind you that your current plan - {planName} is about to be
-renewed on renewDate. You can check your subscription and plan settings in your
-account [https://portal.mimedia.com/orbic/#/account/plans].
+Solo quería recordarle que su plan actual - {planName} se renovará en renewDate.
+Puede verificar su suscripción y configuraciones de plan en su cuenta
+[https://portal.mimedia.com/orbic/#/account/plans].
 
-The Orbic Cloud Team
+El equipo de Orbic Cloud
 
 --------------------------------------------------------------------------------
 
-If you did not make this change, please check your account details and contact
-us at cloudsupport@orbic.us [cloudsupport@orbic.us] if you believe someone has
-madean unauthorized change.
+Si no realizaste este cambio, por favor verifica los detalles de tu cuenta y
+contáctanos en cloudsupport@orbic.us [cloudsupport@orbic.us] si crees que
+alguien realizó un cambio no autorizado.
 
-Home [https://portal.mimedia.com/orbic]|Support
+Inicio [https://portal.mimedia.com/orbic]|Soporte
 [https://orbic.us/pages/contact-us]

@@ -1,9 +1,9 @@
-Hi {firstName}!
+¡Hola {firstName}!
 
-Your account has been suspended and switched to read only mode. Please upgrade
-your account to regain full access to your media.
+Tu cuenta ha sido suspendida y cambiada a modo de solo lectura. Por favor,
+actualiza tu cuenta para recuperar el acceso completo a tus medios.
 
-The Orbic Cloud Team
+El equipo de Orbic Cloud
 
-Home [https://portal.mimedia.com/orbic]|Support
+Inicio [https://portal.mimedia.com/orbic]|Soporte
 [https://orbic.us/pages/contact-us]

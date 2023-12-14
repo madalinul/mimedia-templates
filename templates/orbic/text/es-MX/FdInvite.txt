@@ -17,5 +17,5 @@ otros miembros del {fdName}.
 
 ¡Únete ahora! [http://{joinUrl}]
 
-Home [https://portal.mimedia.com/orbic]|Support
+Inicio [https://portal.mimedia.com/orbic]|Soporte
 [https://orbic.us/pages/contact-us]

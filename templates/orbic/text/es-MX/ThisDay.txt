@@ -1,16 +1,16 @@
-CHECK OUT YOUR MEMORIES FROM THIS {SCOPE} IN {YEAR}
+REVISA TUS RECUERDOS DE ESTE {SCOPE} EN {YEAR}
 
-Hey {userName}, take a trip down memory lane with these photos.
+Hola {userName}, haz un viaje por el carril de los recuerdos con estas fotos.
 
 
 
-Click here to view on Orbic Cloud! [http://{baseUrl}/{shareKey}]
+¡Haz clic aquí para ver en Orbic Cloud! [http://{baseUrl}/{shareKey}]
 
 --------------------------------------------------------------------------------
 
-If you'd rather not receive these emails from MiMedia in the future, please
-unsubscribe.
+Si prefiere no recibir más correos electrónicos de MiMedia en el futuro, por
+favor cancelar suscripción.
 [https://portal.mimedia.com/#account/unsubscribe?emailType=this_day]
 
-Home [https://portal.mimedia.com/orbic]|Support
+Inicio [https://portal.mimedia.com/orbic]|Soporte
 [https://orbic.us/pages/contact-us]
