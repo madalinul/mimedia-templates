@@ -1,0 +1,9 @@
+{
+    "fdInvite": {
+        "join": "¡Únete ahora!",
+        "permission": "<strong>{inviterFirstName}</strong> te ha dado permiso para contribuir, comentar y chatear con otros miembros del <strong>{fdName}</strong>.",
+        "youBeenInvited": "Has sido invitado a la <brand>{fdName}</brand>"
+    },
+    "subject_2": "Tienes recuerdos relacionados con el día de hoy",
+    "subject_3": "El pago no se ha realizado correctamente"
+}

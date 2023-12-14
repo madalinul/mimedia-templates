@@ -1,0 +1,16 @@
+CHECK OUT YOUR MEMORIES FROM THIS {SCOPE} IN {YEAR}
+
+Hey {userName}, take a trip down memory lane with these photos.
+
+
+
+Click here to view on Orbic Cloud! [http://{baseUrl}/{shareKey}]
+
+--------------------------------------------------------------------------------
+
+If you'd rather not receive these emails from MiMedia in the future, please
+unsubscribe.
+[https://portal.mimedia.com/#account/unsubscribe?emailType=this_day]
+
+Home [https://portal.mimedia.com/orbic]|Support
+[https://orbic.us/pages/contact-us]

@@ -3,7 +3,7 @@ import * as React from 'react';
 import partnersConfig from '../config/config';
 import Footer from './Footer';
 
-export type Languages = 'en' | 'ja';
+export type Languages = 'en' | 'ja' | 'es-MX';
 export type Partner = 'mimedia' | 'orbic' | 'tmcell';
 
 export const Template = ({
