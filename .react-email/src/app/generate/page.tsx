@@ -28,9 +28,11 @@ export default async function Page() {
             plainText: true,
           },
         );
-        htmlLinks += `<li><a href='./templates/${partner}/html/${language}/${email}.html'>${email}</a></li>`;
+
+        const htmlLink = `/templates/${partner}/html/${language}/${email}_${language}.html`;
+        htmlLinks += `<li><div style="display:flex;flex-direction:row;gap:1rem;justify-content:space-between;"><a href='${htmlLink}'>${email}</a><a href='${htmlLink}' download>.html</a><a href='/templates/${partner}/text/${language}/${email}_${language}.txt'>.txt</a></div></li>`;
         await fs.writeFile(
-          `../templates/${partner}/html/${language}/${email}.html`,
+          `../templates/${partner}/html/${language}/${email}_${language}.html`,
           markup,
           function (err) {
             if (err) throw err;
@@ -38,7 +40,7 @@ export default async function Page() {
           },
         );
         await fs.writeFile(
-          `../templates/${partner}/text/${language}/${email}.txt`,
+          `../templates/${partner}/text/${language}/${email}_${language}.txt`,
           plainText,
           function (err) {
             if (err) throw err;
