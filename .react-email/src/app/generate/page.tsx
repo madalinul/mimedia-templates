@@ -30,7 +30,7 @@ export default async function Page() {
         );
 
         const htmlLink = `./templates/${partner}/html/${language}/${email}_${language}.html`;
-        htmlLinks += `<li><div style="display:flex;flex-direction:row;gap:1rem;justify-content:space-between;"><a href='${htmlLink}'>${email}</a><a href='${htmlLink}' download>.html</a><a href='./templates/${partner}/text/${language}/${email}_${language}.txt'>.txt</a></div></li>`;
+        htmlLinks += `<li><div style="display:flex;flex-direction:row;gap:1rem;justify-content:space-between;"><a href='${htmlLink}'>${email}</a><div style="display:flex;flex-direction:row;gap:0.5rem;justify-content:space-between;"><a href='${htmlLink}' download>.html</a><a href='./templates/${partner}/text/${language}/${email}_${language}.txt'>.txt</a></div></div></li>`;
         await fs.writeFile(
           `../templates/${partner}/html/${language}/${email}_${language}.html`,
           markup,
@@ -65,6 +65,7 @@ const createIndexFile = (linksContent) => {
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
     <title>Mimedia Templates</title>
   </head>
   <body>
