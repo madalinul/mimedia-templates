@@ -1,0 +1,14 @@
+Hi {firstName}!
+
+
+
+You are currently using {currentUseGB} Gb of cloud storage. The storage limit
+for the {futureProductName} is {futureLimitGB} Gb.
+
+Please remove {removeGB} of data to downgrade. Otherwise your request for plan
+change will NOT take effect, and you will be charged on {scheduledForTime} for
+{prevProductName}, as usual.
+
+The Gallery Team
+
+Home [https://portal.mimedia.com/tmcell]

@@ -9,6 +9,9 @@ const Footer = ({ language, partner }: EmailProps) => {
     if (partner === 'orbic') {
         return <OrbicFooter language={language} />;
     }
+    if (partner === 'tmcell') {
+        return <TmcellFooter language={language} />;
+    }
     return <MimediaFooter language={language} />;
 };
 
@@ -32,6 +35,23 @@ const OrbicFooter = ({ language }: { language: Languages }) => {
                             i18n={getInstanceFromLanguage(language)}
                             i18nKey={'common.support'}
                         />
+                    </CustomLink>
+                </Column>
+            </Row>
+        </Section>
+    );
+};
+
+const TmcellFooter = ({ language }: { language: Languages }) => {
+    return (
+        <Section>
+            <Row>
+                <Column align='center'>
+                    <CustomLink
+                        className='text-brand text-sm'
+                        href='https://portal.mimedia.com/tmcell'
+                    >
+                        <Trans i18n={getInstanceFromLanguage(language)} i18nKey={'common.home'} />
                     </CustomLink>
                 </Column>
             </Row>

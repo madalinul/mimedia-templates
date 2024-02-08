@@ -1,0 +1,18 @@
+SE HA ACTUALIZADO SU PLAN DE ALMACENAMIENTO.
+
+¡Hola {firstName}!
+
+Nuestros registros indican que actualizaste tu plan de almacenamiento de una
+cuenta {prevProductName} a una cuenta {currProductName} el {changeTime}. Haz
+clic aquí [https://portal.mimedia.com/tmcell/#/account/billing] para acceder a
+los detalles de facturación de tu plan.
+
+El equipo de Gallery
+
+--------------------------------------------------------------------------------
+
+Si no realizaste este cambio, por favor verifica los detalles de tu cuenta y
+contáctanos en support-tmcell@mimedia.com [support-tmcell@mimedia.com] si crees
+que alguien realizó un cambio no autorizado.
+
+Inicio [https://portal.mimedia.com/tmcell]

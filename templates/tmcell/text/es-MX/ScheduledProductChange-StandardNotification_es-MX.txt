@@ -1,0 +1,14 @@
+¡Hola {firstName}!
+
+
+
+Está programado que se cambie el {scheduledForTime} de {prevProductName} a
+{futureProductName} con {futureLimitGB} Gb.
+
+Asegúrese de no superar los {futureLimitGB} Gb, de lo contrario su solicitud de
+cambio de plan NO se llevará a cabo en ese momento, y se le cobrará el
+{prevProductName} en {scheduledForTime}, como de costumbre.
+
+El equipo de Gallery
+
+Inicio [https://portal.mimedia.com/tmcell]

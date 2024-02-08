@@ -42,6 +42,9 @@ const mimediaConfig: PartnerConfig = {
 
 const tmcellConfig: PartnerConfig = {
     ...mimediaConfig,
+    appName: 'Gallery',
+    supportEmail: 'support-tmcell@mimedia.com',
+    appUrl: 'https://portal.mimedia.com/tmcell',
     logo: (
         <Img
             src={'https://portal.mimedia.com/logos/tmcell-logo.png'}

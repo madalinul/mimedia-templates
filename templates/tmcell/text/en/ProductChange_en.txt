@@ -1,0 +1,18 @@
+YOUR STORAGE PLAN HAS BEEN UPDATED.
+
+Hi {firstName}!
+
+Our records show that you updated your storage plan from a {prevProductName} to
+a {currProductName} account on {changeTime}. Click here
+[https://portal.mimedia.com/tmcell/#/account/billing] to access billing details
+regarding your plan.
+
+The Gallery Team
+
+--------------------------------------------------------------------------------
+
+If you did not make this change, please check your account details and contact
+us at support-tmcell@mimedia.com [support-tmcell@mimedia.com] if you believe
+someone has madean unauthorized change.
+
+Home [https://portal.mimedia.com/tmcell]

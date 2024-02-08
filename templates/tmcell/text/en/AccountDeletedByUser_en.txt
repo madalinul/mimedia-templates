@@ -1,0 +1,16 @@
+YOUR ACCOUNT HAS BEEN DELETED.
+
+Hi {firstName}!
+
+You deleted your Gallery account and we are very sorry about that. We hope that
+you will return to us again.
+
+The Gallery Team
+
+--------------------------------------------------------------------------------
+
+If you did not make this change, please check your account details and contact
+us at support-tmcell@mimedia.com [support-tmcell@mimedia.com] if you believe
+someone has madean unauthorized change.
+
+Home [https://portal.mimedia.com/tmcell]

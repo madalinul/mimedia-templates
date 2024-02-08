@@ -1,0 +1,17 @@
+PLAN RENEW SCHEDULED ON RENEWDATE
+
+Hi {firstName}!
+
+Just wanted to remind you that your current plan - {planName} is about to be
+renewed on renewDate. You can check your subscription and plan settings in your
+account [https://portal.mimedia.com/tmcell/#/account/plans].
+
+The Gallery Team
+
+--------------------------------------------------------------------------------
+
+If you did not make this change, please check your account details and contact
+us at support-tmcell@mimedia.com [support-tmcell@mimedia.com] if you believe
+someone has madean unauthorized change.
+
+Home [https://portal.mimedia.com/tmcell]
