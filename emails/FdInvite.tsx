@@ -10,28 +10,28 @@ const FdInvite = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
         <Template language={language} partner={partner}>
             <Row>
                 <Column align='center'>
-                    <Text className='text-lg'>
-                        <span
-                            style={{
-                                display: 'inline-block',
-                                width: '84px',
-                                height: '84px',
-                                verticalAlign: 'middle',
-                                borderRadius: '50%',
-                                margin: '0 24px 0 11px',
-                                textAlign: 'center',
-                                color: '#fff',
-                                lineHeight: '84px',
-                                fontWeight: 'bold',
-                                fontSize: '42px',
-                                backgroundSize: '84px 84px',
-                                backgroundRepeat: 'no-repeat',
-                                backgroundImage: 'url({senderAvatar})',
-                            }}
-                            className='bg-brand'
-                        />
-                        {'{customMessage}'}
-                    </Text>
+                    <span
+                        style={{
+                            display: 'inline-block',
+                            width: '84px',
+                            height: '84px',
+                            verticalAlign: 'middle',
+                            borderRadius: '50%',
+                            margin: '0 24px 0 11px',
+                            textAlign: 'center',
+                            color: '#fff',
+                            lineHeight: '84px',
+                            fontWeight: 'bold',
+                            fontSize: '42px',
+                            backgroundSize: '84px 84px',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundImage: 'url({senderAvatar})',
+                        }}
+                        className='bg-brand'
+                    />
+                </Column>
+                <Column>
+                    <Text className='text-lg'>{'{customMessage}'}</Text>
                 </Column>
             </Row>
             <Row>

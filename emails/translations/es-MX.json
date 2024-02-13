@@ -1,71 +1,71 @@
 {
-  "accountDeleted" : {
-    "deleteSorry" : "Has eliminado tu cuenta de {{appName}} y lo sentimos mucho. Esperamos que vuelvas a nosotros de nuevo.",
-    "yourAccount" : "Tu cuenta ha sido eliminada."
-  },
-  "accountSuspended" : {
-    "accountSuspended" : "Tu cuenta ha sido suspendida y cambiada a modo de solo lectura. Por favor, actualiza tu cuenta para recuperar el acceso completo a tus medios."
-  },
-  "common" : {
-    "cheers" : "¡Salud!",
-    "clickToView" : "¡Haz clic aquí para ver en {{appName}}!",
-    "contactUs" : "Por favor contáctenos en <link1/> para obtener más información.",
-    "feedback" : "Comentarios",
-    "hiName" : "¡Hola {firstName}!",
-    "home" : "Inicio",
-    "support" : "Soporte",
-    "theTeam" : "El equipo de {{appName}}",
-    "unauthorizedChange" : "Si no realizaste este cambio, por favor verifica los detalles de tu cuenta y contáctanos en <link1/> si crees que alguien realizó un cambio no autorizado.",
-    "unsubscribe" : "Si prefiere no recibir más correos electrónicos de MiMedia en el futuro, por favor <link1>cancelar suscripción.</link1>"
-  },
-  "defaultCardChange" : {
-    "billingUpdated" : "Se ha actualizado su facturación.",
-    "ourRecords" : "Nuestros registros indican que ha actualizado su información de facturación. Si esto es correcto, ¡ya está todo listo!"
-  },
-  "fdInvite" : {
-    "join" : "¡Únete ahora!",
-    "permission" : "<strong>{inviterFirstName}</strong> te ha dado permiso para contribuir, comentar y chatear con otros miembros del <strong>{fdName}</strong>.",
-    "youBeenInvited" : "Has sido invitado a la <brand>{fdName}</brand>"
-  },
-  "planRenewRemind" : {
-    "planRenew" : "Renovación del plan programada para la fecha de renovación",
-    "remindPlan" : "Solo quería recordarle que su plan actual - {planName} se renovará en renewDate. Puede verificar su suscripción y configuraciones de plan en su <link1>cuenta</link1>."
-  },
-  "pmtDeclined" : {
-    "checkCard" : "Por favor, verifique la información de su tarjeta en su página de facturación o contacte al equipo de soporte.",
-    "contactSupport" : "Contactar con soporte",
-    "declined" : "Parece que su pago, realizado el {paymentDate} por {paymentAmount}, fue rechazado. Esto podría deberse a un cambio en el número de su tarjeta o a su vencimiento, la cancelación de su tarjeta de crédito o el banco no reconociendo el pago y tomando medidas para evitarlo.",
-    "notSuccessful" : "El pago para {planDescription} no se ha realizado correctamente",
-    "viewBilling" : "Ver información de facturación"
-  },
-  "productChangeNotification" : {
-    "overageMessage" : "Actualmente estás usando {currentUseGB} Gb de almacenamiento en la nube. El límite de almacenamiento para {futureProductName} es de {futureLimitGB} Gb.<br/><br/> Por favor, elimina {removeGB} de datos para cambiar de plan. De lo contrario, tu solicitud de cambio de plan NO se llevará a cabo y se te cobrará en {scheduledForTime} por {prevProductName}, como de costumbre.",
-    "standardMessage" : "Está programado que se cambie el {scheduledForTime} de {prevProductName} a {futureProductName} con {futureLimitGB} Gb. <br/><br/> Asegúrese de no superar los {futureLimitGB} Gb, de lo contrario su solicitud de cambio de plan NO se llevará a cabo en ese momento, y se le cobrará el {prevProductName} en {scheduledForTime}, como de costumbre."
-  },
-  "productChange" : {
-    "storageUpdated" : "Se ha actualizado su plan de almacenamiento.",
-    "updatedPlan" : "Nuestros registros indican que actualizaste tu plan de almacenamiento de una cuenta {prevProductName} a una cuenta <strong>{currProductName}</strong> el {changeTime}. Haz clic <link1>aquí</link1> para acceder a los detalles de facturación de tu plan."
-  },
-  "referJoined" : {
-    "acceptedInvitation" : "Ahora que {userName} ha aceptado tu invitación, hemos añadido {storageBonus} a tu cuenta de {{appName}}. ¡Eso es trabajo en equipo!",
-    "winner" : "¡Realmente sabes cómo elegir a un ganador!"
-  },
-  "referralEmail" : {
-    "letsGetStarted" : "Comencemos",
-    "multipleDevices" : "¿Tienes varios dispositivos? No hay problema. {{appName}} es compatible con cualquier dispositivo. Esto significa que se comunica sin problemas entre dispositivos Apple y Android.",
-    "personalCloud" : "Con {{appName}}, tienes una nube personal diseñada para organizar, gestionar y compartir todas tus fotos, videos, música y documentos.",
-    "senderTought" : "¡<brand>{senderName}</brand> piensa que te encantará {{appName}}!",
-    "share" : "¡Y la mejor parte es que puedes compartir de forma privada con tus amigos y familiares! Si estás interesado, tenemos 10GB gratis esperándote.",
-    "usingApps" : "¿Usas demasiadas aplicaciones para guardar y compartir tus recuerdos? Importa todo desde aplicaciones como Facebook, Dropbox y Flickr y experimentarás la felicidad de la organización digital."
-  },
-  "shareMediaItem" : {
-    "sharedWithYou" : "{senderFirstName} compartió {sharedItemDescription} contigo en <brand>{collectionName}</brand>"
-  },
-  "subject_1" : "{inviterFirstName} quería compartir su contenido personal",
-  "subject_2" : "Tienes recuerdos relacionados con el día de hoy",
-  "subject_3" : "El pago no se ha realizado correctamente",
-  "thisDay" : {
-    "checkOut" : "Revisa tus recuerdos de <brand>este {scope} en {year}</brand>",
-    "takeTrip" : "Hola {userName}, haz un viaje por el carril de los recuerdos con estas fotos."
-  }
+    "accountDeleted": {
+        "deleteSorry": "Has eliminado tu cuenta de {{appName}} y lo sentimos mucho. Esperamos que vuelvas a nosotros de nuevo.",
+        "yourAccount": "Tu cuenta ha sido eliminada."
+    },
+    "accountSuspended": {
+        "accountSuspended": "Tu cuenta ha sido suspendida y cambiada a modo de solo lectura. Por favor, actualiza tu cuenta para recuperar el acceso completo a tus medios."
+    },
+    "common": {
+        "cheers": "¡Salud!",
+        "clickToView": "¡Haz clic aquí para ver en {{appName}}!",
+        "contactUs": "Por favor contáctenos en <link1/> para obtener más información.",
+        "feedback": "Comentarios",
+        "hiName": "¡Hola {firstName}!",
+        "home": "Inicio",
+        "support": "Soporte",
+        "theTeam": "El equipo de {{appName}}",
+        "unauthorizedChange": "Si no realizaste este cambio, por favor verifica los detalles de tu cuenta y contáctanos en <link1/> si crees que alguien realizó un cambio no autorizado.",
+        "unsubscribe": "Si prefiere no recibir más correos electrónicos de MiMedia en el futuro, por favor <link1>cancelar suscripción.</link1>"
+    },
+    "defaultCardChange": {
+        "billingUpdated": "Se ha actualizado su facturación.",
+        "ourRecords": "Nuestros registros indican que ha actualizado su información de facturación. Si esto es correcto, ¡ya está todo listo!"
+    },
+    "fdInvite": {
+        "join": "¡Únete ahora!",
+        "permission": "<strong>{inviterFirstName}</strong> te ha dado permiso para contribuir, comentar y chatear con otros miembros del <strong>{fdName}</strong>.",
+        "youBeenInvited": "Has sido invitado a la <brand>{fdName}</brand>"
+    },
+    "planRenewRemind": {
+        "planRenew": "Renovación del plan programada para la fecha de renovación",
+        "remindPlan": "Solo quería recordarle que su plan actual - {planName} se renovará en {renewDate}. Puede verificar su suscripción y configuraciones de plan en su <link1>cuenta</link1>."
+    },
+    "pmtDeclined": {
+        "checkCard": "Por favor, verifique la información de su tarjeta en su página de facturación o contacte al equipo de soporte.",
+        "contactSupport": "Contactar con soporte",
+        "declined": "Parece que su pago, realizado el {paymentDate} por {paymentAmount}, fue rechazado. Esto podría deberse a un cambio en el número de su tarjeta o a su vencimiento, la cancelación de su tarjeta de crédito o el banco no reconociendo el pago y tomando medidas para evitarlo.",
+        "notSuccessful": "El pago para {planDescription} no se ha realizado correctamente",
+        "viewBilling": "Ver información de facturación"
+    },
+    "productChangeNotification": {
+        "overageMessage": "Actualmente estás usando {currentUseGB} Gb de almacenamiento en la nube. El límite de almacenamiento para {futureProductName} es de {futureLimitGB} Gb.<br/><br/> Por favor, elimina {removeGB} de datos para cambiar de plan. De lo contrario, tu solicitud de cambio de plan NO se llevará a cabo y se te cobrará en {scheduledForTime} por {prevProductName}, como de costumbre.",
+        "standardMessage": "Está programado que se cambie el {scheduledForTime} de {prevProductName} a {futureProductName} con {futureLimitGB} Gb. <br/><br/> Asegúrese de no superar los {futureLimitGB} Gb, de lo contrario su solicitud de cambio de plan NO se llevará a cabo en ese momento, y se le cobrará el {prevProductName} en {scheduledForTime}, como de costumbre."
+    },
+    "productChange": {
+        "storageUpdated": "Se ha actualizado su plan de almacenamiento.",
+        "updatedPlan": "Nuestros registros indican que actualizaste tu plan de almacenamiento de una cuenta {prevProductName} a una cuenta <strong>{currProductName}</strong> el {changeTime}. Haz clic <link1>aquí</link1> para acceder a los detalles de facturación de tu plan."
+    },
+    "referJoined": {
+        "acceptedInvitation": "Ahora que {userName} ha aceptado tu invitación, hemos añadido {storageBonus} a tu cuenta de {{appName}}. ¡Eso es trabajo en equipo!",
+        "winner": "¡Realmente sabes cómo elegir a un ganador!"
+    },
+    "referralEmail": {
+        "letsGetStarted": "Comencemos",
+        "multipleDevices": "¿Tienes varios dispositivos? No hay problema. {{appName}} es compatible con cualquier dispositivo. Esto significa que se comunica sin problemas entre dispositivos Apple y Android.",
+        "personalCloud": "Con {{appName}}, tienes una nube personal diseñada para organizar, gestionar y compartir todas tus fotos, videos, música y documentos.",
+        "senderTought": "¡<brand>{senderName}</brand> piensa que te encantará {{appName}}!",
+        "share": "¡Y la mejor parte es que puedes compartir de forma privada con tus amigos y familiares! Si estás interesado, tenemos {{storage}}GB gratis esperándote.",
+        "usingApps": "¿Usas demasiadas aplicaciones para guardar y compartir tus recuerdos? Importa todo desde aplicaciones como Google y Dropbox y experimentarás la felicidad de la organización digital."
+    },
+    "shareMediaItem": {
+        "sharedWithYou": "{senderFirstName} compartió {sharedItemDescription} contigo en <brand>{collectionName}</brand>"
+    },
+    "subject_1": "{inviterFirstName} quería compartir su contenido personal",
+    "subject_2": "Tienes recuerdos relacionados con el día de hoy",
+    "subject_3": "El pago no se ha realizado correctamente",
+    "thisDay": {
+        "checkOut": "Revisa tus recuerdos de <brand>este {scope} en {year}</brand>",
+        "takeTrip": "Hola {userName}, haz un viaje por el carril de los recuerdos con estas fotos."
+    }
 }

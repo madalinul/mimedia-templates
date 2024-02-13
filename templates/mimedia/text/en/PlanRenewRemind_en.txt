@@ -6,16 +6,16 @@ PLAN RENEW SCHEDULED ON RENEWDATE
 Hi {firstName}!
 
 Just wanted to remind you that your current plan - {planName} is about to be
-renewed on renewDate. You can check your subscription and plan settings in your
-account [https://portal.mimedia.com/#/account/plans].
+renewed on {renewDate}. You can check your subscription and plan settings in
+your account [https://portal.mimedia.com/#/account/plans].
 
 The MiMedia Team
 
 --------------------------------------------------------------------------------
 
 If you did not make this change, please check your account details and contact
-us at support@mimedia.com [support@mimedia.com] if you believe someone has
-madean unauthorized change.
+us at support@mimedia.com [support@mimedia.com] if you believe someone has made
+an unauthorized change.
 
 Home [https://portal.mimedia.com/]|Support
 [http://support.mimedia.com/]|Feedback [http://support.mimedia.com/contact-us/]

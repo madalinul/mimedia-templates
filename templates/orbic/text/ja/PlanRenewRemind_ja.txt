@@ -3,8 +3,8 @@ PLAN RENEW SCHEDULED ON RENEWDATE
 {firstName} 様
 
 Just wanted to remind you that your current plan - {planName} is about to be
-renewed on renewDate. You can check your subscription and plan settings in your
-account [https://portal.mimedia.com/orbic/#/account/plans].
+renewed on {renewDate}. You can check your subscription and plan settings in
+your account [https://portal.mimedia.com/orbic/#/account/plans].
 
 Orbic Cloud チーム
 

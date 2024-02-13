@@ -54,7 +54,11 @@ const ReferralEmail = ({ partner = 'mimedia', language = 'en' }: EmailProps) => 
                 />
             </Text>
             <Text>
-                <Trans i18n={getInstanceFromLanguage(language)} i18nKey={'referralEmail.share'} />
+                <Trans
+                    i18n={getInstanceFromLanguage(language)}
+                    i18nKey={'referralEmail.share'}
+                    values={{ storage: partner === 'mimedia' ? 10 : 5 }}
+                />
             </Text>
             <Row>
                 <Column align='center'>

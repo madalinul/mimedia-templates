@@ -2,9 +2,9 @@ RENOVACIÓN DEL PLAN PROGRAMADA PARA LA FECHA DE RENOVACIÓN
 
 ¡Hola {firstName}!
 
-Solo quería recordarle que su plan actual - {planName} se renovará en renewDate.
-Puede verificar su suscripción y configuraciones de plan en su cuenta
-[https://portal.mimedia.com/tmcell/#/account/plans].
+Solo quería recordarle que su plan actual - {planName} se renovará en
+{renewDate}. Puede verificar su suscripción y configuraciones de plan en su
+cuenta [https://portal.mimedia.com/tmcell/#/account/plans].
 
 El equipo de Gallery
 
