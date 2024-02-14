@@ -28,7 +28,7 @@
         "youBeenInvited": "Has sido invitado a la <brand>{fdName}</brand>"
     },
     "planRenewRemind": {
-        "planRenew": "Renovación del plan programada para la fecha de renovación",
+        "planRenew": "Renovación del plan programada para la {renewDate}",
         "remindPlan": "Solo quería recordarle que su plan actual - {planName} se renovará en {renewDate}. Puede verificar su suscripción y configuraciones de plan en su <link1>cuenta</link1>."
     },
     "pmtDeclined": {
