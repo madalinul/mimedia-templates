@@ -5,7 +5,7 @@ import config from './config/config';
 import { EmailProps } from './config/types';
 import { getInstanceFromLanguage } from './translations/translations';
 
-const InvPMTFailedAccountReadonly = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
+const INVPMTFAILEDACCOUNTREADONLY = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
         <Template language={language} partner={partner}>
             <Text className='mb-2'>
@@ -28,4 +28,4 @@ const InvPMTFailedAccountReadonly = ({ partner = 'mimedia', language = 'en' }: E
     );
 };
 
-export default InvPMTFailedAccountReadonly;
+export default INVPMTFAILEDACCOUNTREADONLY;

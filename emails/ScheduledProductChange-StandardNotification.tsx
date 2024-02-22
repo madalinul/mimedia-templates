@@ -5,7 +5,7 @@ import config from './config/config';
 import { EmailProps } from './config/types';
 import { getInstanceFromLanguage } from './translations/translations';
 
-const ScheduledProductChangeStandardNotification = ({
+const SCHEDULEDPRODUCTCHANGE_STANDARDNOTIFICATION = ({
     partner = 'mimedia',
     language = 'ja',
 }: EmailProps) => {
@@ -33,4 +33,4 @@ const ScheduledProductChangeStandardNotification = ({
     );
 };
 
-export default ScheduledProductChangeStandardNotification;
+export default SCHEDULEDPRODUCTCHANGE_STANDARDNOTIFICATION;

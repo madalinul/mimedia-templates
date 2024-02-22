@@ -1,2 +1,2 @@
-import Mail from '../../emails/DefaultCardChange.tsx';
+import Mail from '../../emails/DEFAULTCARDCHANGE.tsx';
 export default Mail;

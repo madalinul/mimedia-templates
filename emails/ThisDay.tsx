@@ -7,7 +7,7 @@ import config from './config/config';
 import { EmailProps } from './config/types';
 import { getInstanceFromLanguage } from './translations/translations';
 
-export const ThisDay = ({ partner = 'mimedia', language = 'ja' }: EmailProps) => {
+export const THISDAY = ({ partner = 'mimedia', language = 'ja' }: EmailProps) => {
     return (
         <Template language={language} partner={partner}>
             <Heading className='text-[24px] font-normal leading-normal text-center p-0 my-[30px] mx-0'>
@@ -57,4 +57,4 @@ export const ThisDay = ({ partner = 'mimedia', language = 'ja' }: EmailProps) =>
     );
 };
 
-export default ThisDay;
+export default THISDAY;

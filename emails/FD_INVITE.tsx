@@ -5,7 +5,7 @@ import Template from './components/Template';
 import { EmailProps } from './config/types';
 import { getInstanceFromLanguage } from './translations/translations';
 
-const FdInvite = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
+const FD_INVITE = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
         <Template language={language} partner={partner}>
             <Row>
@@ -87,4 +87,4 @@ const FdInvite = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     );
 };
 
-export default FdInvite;
+export default FD_INVITE;

@@ -7,7 +7,7 @@ import config from './config/config';
 import { EmailProps } from './config/types';
 import { getInstanceFromLanguage } from './translations/translations';
 
-const ProductChange = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
+const PRODUCTCHANGE = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
         <Template language={language} partner={partner}>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>
@@ -47,4 +47,4 @@ const ProductChange = ({ partner = 'mimedia', language = 'en' }: EmailProps) => 
     );
 };
 
-export default ProductChange;
+export default PRODUCTCHANGE;

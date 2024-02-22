@@ -1,2 +1,2 @@
-import Mail from '../../emails/AccountDeletedByUser.tsx';
+import Mail from '../../emails/ACCOUNTDELETEDBYUSER.tsx';
 export default Mail;

@@ -1,2 +1,2 @@
-import Mail from '../../emails/ScheduledProductChange-StandardNotification.tsx';
+import Mail from '../../emails/SCHEDULEDPRODUCTCHANGE-STANDARDNOTIFICATION.tsx';
 export default Mail;

@@ -1,5 +1,6 @@
 import { render } from '@react-email/render';
 import { promises as fs } from 'fs';
+import path from 'path';
 import { getEmails } from '../../utils/get-emails';
 import { Generate } from './generate';
 
@@ -18,6 +19,19 @@ export default async function Page() {
     htmlLinks += `<div><h1>${partner}</h1><div style='display:flex;gap:1rem'>`;
     for (const language of partnerObj.languages) {
       htmlLinks += `<div><h4 style='text-align:center'>${language}</h4><ul>`;
+      const htmlDirectory = `../templates/${partner}/html/${language}/`;
+      for (const file of await fs.readdir(htmlDirectory)) {
+        try {
+          await fs.unlink(path.join(htmlDirectory, file));
+        } catch (err) {}
+      }
+      const txtDirectory = `../templates/${partner}/text/${language}/`;
+      for (const file of await fs.readdir(txtDirectory)) {
+        try {
+          await fs.unlink(path.join(txtDirectory, file));
+        } catch (err) {}
+      }
+
       for (const email of emails) {
         const Email = (await import(`../../../../emails/${email}`)).default;
         const markup = render(<Email partner={partner} language={language} />, {
@@ -30,10 +44,10 @@ export default async function Page() {
           },
         );
 
-        const htmlLink = `./templates/${partner}/html/${language}/${email}_${language}.html`;
+        const htmlLink = `./templates/${partner}/html/${language}/${email}.html`;
         htmlLinks += `<li><div style="display:flex;flex-direction:row;gap:1rem;justify-content:space-between;"><a href='${htmlLink}'>${email}</a><div style="display:flex;flex-direction:row;gap:0.5rem;justify-content:space-between;"><a href='${htmlLink}' download>.html</a><a href='./templates/${partner}/text/${language}/${email}_${language}.txt' download>.txt</a></div></div></li>`;
         await fs.writeFile(
-          `../templates/${partner}/html/${language}/${email}_${language}.html`,
+          `../templates/${partner}/html/${language}/${email}.html`,
           markup,
           function (err) {
             if (err) throw err;
@@ -41,7 +55,7 @@ export default async function Page() {
           },
         );
         await fs.writeFile(
-          `../templates/${partner}/text/${language}/${email}_${language}.txt`,
+          `../templates/${partner}/text/${language}/${email}.txt`,
           plainText,
           function (err) {
             if (err) throw err;

@@ -7,7 +7,7 @@ import config from './config/config';
 import { EmailProps } from './config/types';
 import { getInstanceFromLanguage } from './translations/translations';
 
-const InvPmtDeclined = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
+const INVPMTDECLINED = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
         <Template language={language} partner={partner}>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>
@@ -61,4 +61,4 @@ const InvPmtDeclined = ({ partner = 'mimedia', language = 'en' }: EmailProps) =>
     );
 };
 
-export default InvPmtDeclined;
+export default INVPMTDECLINED;

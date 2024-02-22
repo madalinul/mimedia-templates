@@ -1,2 +1,2 @@
-import Mail from '../../emails/InvPmtDeclined.tsx';
+import Mail from '../../emails/INVPMTDECLINED.tsx';
 export default Mail;

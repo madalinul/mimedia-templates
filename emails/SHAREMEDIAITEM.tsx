@@ -6,7 +6,7 @@ import config from './config/config';
 import { EmailProps } from './config/types';
 import { getInstanceFromLanguage } from './translations/translations';
 
-export const SharedMediaItem = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
+export const SHAREMEDIAITEM = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
         <Template language={language} partner={partner}>
             <Heading className='leading-8 text-[24px] font-normal text-center p-0 my-[30px] mx-0 l'>
@@ -51,4 +51,4 @@ export const SharedMediaItem = ({ partner = 'mimedia', language = 'en' }: EmailP
     );
 };
 
-export default SharedMediaItem;
+export default SHAREMEDIAITEM;

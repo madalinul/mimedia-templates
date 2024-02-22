@@ -5,7 +5,7 @@ import config from './config/config';
 import { EmailProps } from './config/types';
 import { getInstanceFromLanguage } from './translations/translations';
 
-const ReferFriendJoined = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
+const REFER_FRIEND_JOINED = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     return (
         <Template partner={partner} language={language}>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>
@@ -32,4 +32,4 @@ const ReferFriendJoined = ({ partner = 'mimedia', language = 'en' }: EmailProps)
     );
 };
 
-export default ReferFriendJoined;
+export default REFER_FRIEND_JOINED;

@@ -5,7 +5,7 @@ import config from './config/config';
 import { EmailProps } from './config/types';
 import { getInstanceFromLanguage } from './translations/translations';
 
-const ScheduledProductChangeCauseOverage = ({
+const SCHEDULEDPRODUCTCHANGE_CAUSESOVERAGE = ({
     partner = 'mimedia',
     language = 'en',
 }: EmailProps) => {
@@ -33,4 +33,4 @@ const ScheduledProductChangeCauseOverage = ({
     );
 };
 
-export default ScheduledProductChangeCauseOverage;
+export default SCHEDULEDPRODUCTCHANGE_CAUSESOVERAGE;

@@ -1,2 +1,2 @@
-import Mail from '../../emails/ThisDay.tsx';
+import Mail from '../../emails/THISDAY.tsx';
 export default Mail;

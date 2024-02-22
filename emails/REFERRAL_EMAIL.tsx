@@ -6,7 +6,7 @@ import config from './config/config';
 import { EmailProps } from './config/types';
 import { getInstanceFromLanguage } from './translations/translations';
 
-const ReferralEmail = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
+const REFERRAL_EMAIL = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
     const appName = config[partner].appName;
 
     return (
@@ -74,4 +74,4 @@ const ReferralEmail = ({ partner = 'mimedia', language = 'en' }: EmailProps) => 
     );
 };
 
-export default ReferralEmail;
+export default REFERRAL_EMAIL;
