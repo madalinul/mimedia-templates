@@ -1,0 +1,8 @@
+¡Hola {firstName}!
+
+Tu cuenta ha sido suspendida y cambiada a modo de solo lectura. Por favor,
+actualiza tu cuenta para recuperar el acceso completo a tus medios.
+
+El equipo de PCD Gallery
+
+Inicio [https://portal.mimedia.com/pcd/]

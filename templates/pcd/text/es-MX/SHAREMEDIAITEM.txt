@@ -1,0 +1,9 @@
+{SENDERFIRSTNAME} COMPARTIÓ {SHAREDITEMDESCRIPTION} CONTIGO EN {COLLECTIONNAME}
+
+{messageText}
+
+http://{baseUrl}/{shareKey}
+
+¡Haz clic aquí para ver en PCD Gallery! [http://{baseUrl}/{shareKey}]
+
+Inicio [https://portal.mimedia.com/pcd/]

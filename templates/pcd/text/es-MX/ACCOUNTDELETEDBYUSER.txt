@@ -1,0 +1,16 @@
+TU CUENTA HA SIDO ELIMINADA.
+
+¡Hola {firstName}!
+
+Has eliminado tu cuenta de PCD Gallery y lo sentimos mucho. Esperamos que
+vuelvas a nosotros de nuevo.
+
+El equipo de PCD Gallery
+
+--------------------------------------------------------------------------------
+
+Si no realizaste este cambio, por favor verifica los detalles de tu cuenta y
+contáctanos en support-pcd@mimedia.com [support-pcd@mimedia.com] si crees que
+alguien realizó un cambio no autorizado.
+
+Inicio [https://portal.mimedia.com/pcd/]

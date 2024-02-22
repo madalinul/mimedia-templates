@@ -55,6 +55,21 @@ const tmcellConfig: PartnerConfig = {
     ),
 };
 
+const pcdConfig: PartnerConfig = {
+    ...mimediaConfig,
+    appName: 'PCD Gallery',
+    supportEmail: 'support-pcd@mimedia.com',
+    appUrl: 'https://portal.mimedia.com/pcd/',
+    logo: (
+        <Img
+            src={'https://portal.mimedia.com/logos/tmcell-logo.png'}
+            width='100'
+            alt='Logo'
+            className='my-0 mx-auto'
+        />
+    ),
+};
+
 type PartnerConfig = {
     appName: string;
     appUrl: string;
@@ -68,6 +83,7 @@ export const partnersConfig: Record<Partner, PartnerConfig> = {
     orbic: orbicConfig,
     mimedia: mimediaConfig,
     tmcell: tmcellConfig,
+    pcd: pcdConfig,
 };
 
 export default partnersConfig;

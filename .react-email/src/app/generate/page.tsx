@@ -8,6 +8,7 @@ const partners = [
   { name: 'mimedia', languages: ['en'] },
   { name: 'orbic', languages: ['en', 'ja', 'es-MX'] },
   { name: 'tmcell', languages: ['en', 'es-MX'] },
+  { name: 'pcd', languages: ['en', 'es-MX'] },
 ];
 
 export default async function Page() {

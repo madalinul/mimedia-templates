@@ -1,0 +1,18 @@
+YOUR STORAGE PLAN HAS BEEN UPDATED.
+
+Hi {firstName}!
+
+Our records show that you updated your storage plan from a {prevProductName} to
+a {currProductName} account on {changeTime}. Click here
+[https://portal.mimedia.com/pcd//#/account/billing] to access billing details
+regarding your plan.
+
+The PCD Gallery Team
+
+--------------------------------------------------------------------------------
+
+If you did not make this change, please check your account details and contact
+us at support-pcd@mimedia.com [support-pcd@mimedia.com] if you believe someone
+has made an unauthorized change.
+
+Home [https://portal.mimedia.com/pcd/]

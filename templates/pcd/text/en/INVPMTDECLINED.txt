@@ -1,0 +1,24 @@
+YOUR PAYMENT FOR {PLANDESCRIPTION} WAS NOT SUCCESSFUL
+
+Hi {firstName}!
+
+It seems like your payment, made on {paymentDate} for {paymentAmount}, was
+declined. This could be due to a change in your card number or your card
+expiring, cancelation of your credit card, or the bank not recognizing the
+payment and taking action to prevent it.
+
+Please check your card information on your Billing page or contact support team.
+
+Cheers,
+
+The PCD Gallery Team
+
+View billing info [https://portal.mimedia.com/pcd/]Contact support
+[support-pcd@mimedia.com]
+
+--------------------------------------------------------------------------------
+
+Please contact us at support-pcd@mimedia.com [support-pcd@mimedia.com] for more
+information.
+
+Home [https://portal.mimedia.com/pcd/]

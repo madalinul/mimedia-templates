@@ -1,0 +1,14 @@
+¡Hola {firstName}!
+
+
+
+Actualmente estás usando {currentUseGB} Gb de almacenamiento en la nube. El
+límite de almacenamiento para {futureProductName} es de {futureLimitGB} Gb.
+
+Por favor, elimina {removeGB} de datos para cambiar de plan. De lo contrario, tu
+solicitud de cambio de plan NO se llevará a cabo y se te cobrará en
+{scheduledForTime} por {prevProductName}, como de costumbre.
+
+El equipo de PCD Gallery
+
+Inicio [https://portal.mimedia.com/pcd/]

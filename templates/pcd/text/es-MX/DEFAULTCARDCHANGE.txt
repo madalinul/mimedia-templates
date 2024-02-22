@@ -1,0 +1,16 @@
+SE HA ACTUALIZADO SU FACTURACIÓN.
+
+¡Hola {firstName}!
+
+Nuestros registros indican que ha actualizado su información de facturación. Si
+esto es correcto, ¡ya está todo listo!
+
+El equipo de PCD Gallery
+
+--------------------------------------------------------------------------------
+
+Si no realizaste este cambio, por favor verifica los detalles de tu cuenta y
+contáctanos en support-pcd@mimedia.com [support-pcd@mimedia.com] si crees que
+alguien realizó un cambio no autorizado.
+
+Inicio [https://portal.mimedia.com/pcd/]

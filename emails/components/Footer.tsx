@@ -12,6 +12,11 @@ const Footer = ({ language, partner }: EmailProps) => {
     if (partner === 'tmcell') {
         return <TmcellFooter language={language} />;
     }
+
+    if (partner === 'pcd') {
+        return <PcdFooter language={language} />;
+    }
+
     return <MimediaFooter language={language} />;
 };
 
@@ -50,6 +55,23 @@ const TmcellFooter = ({ language }: { language: Languages }) => {
                     <CustomLink
                         className='text-brand text-sm'
                         href='https://portal.mimedia.com/tmcell'
+                    >
+                        <Trans i18n={getInstanceFromLanguage(language)} i18nKey={'common.home'} />
+                    </CustomLink>
+                </Column>
+            </Row>
+        </Section>
+    );
+};
+
+const PcdFooter = ({ language }: { language: Languages }) => {
+    return (
+        <Section>
+            <Row>
+                <Column align='center'>
+                    <CustomLink
+                        className='text-brand text-sm'
+                        href='https://portal.mimedia.com/pcd/'
                     >
                         <Trans i18n={getInstanceFromLanguage(language)} i18nKey={'common.home'} />
                     </CustomLink>

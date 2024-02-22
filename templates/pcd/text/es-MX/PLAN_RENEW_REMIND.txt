@@ -1,0 +1,17 @@
+RENOVACIÓN DEL PLAN PROGRAMADA PARA LA {RENEWDATE}
+
+¡Hola {firstName}!
+
+Solo quería recordarle que su plan actual - {planName} se renovará en
+{renewDate}. Puede verificar su suscripción y configuraciones de plan en su
+cuenta [https://portal.mimedia.com/pcd//#/account/plans].
+
+El equipo de PCD Gallery
+
+--------------------------------------------------------------------------------
+
+Si no realizaste este cambio, por favor verifica los detalles de tu cuenta y
+contáctanos en support-pcd@mimedia.com [support-pcd@mimedia.com] si crees que
+alguien realizó un cambio no autorizado.
+
+Inicio [https://portal.mimedia.com/pcd/]

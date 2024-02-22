@@ -1,0 +1,20 @@
+{customMessage}
+
+
+
+
+HAS SIDO INVITADO A LA
+
+
+{FDNAME}
+
+{inviterFirstName} te ha dado permiso para contribuir, comentar y chatear con
+otros miembros del {fdName}.
+
+{fdMembers}
+
+{membersJoined}
+
+¡Únete ahora! [http://{joinUrl}]
+
+Inicio [https://portal.mimedia.com/pcd/]

@@ -1,0 +1,10 @@
+¡REALMENTE SABES CÓMO ELEGIR A UN GANADOR!
+
+¡Hola {firstName}!
+
+Ahora que {userName} ha aceptado tu invitación, hemos añadido {storageBonus} a
+tu cuenta de PCD Gallery. ¡Eso es trabajo en equipo!
+
+El equipo de PCD Gallery
+
+Inicio [https://portal.mimedia.com/pcd/]
