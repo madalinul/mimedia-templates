@@ -1,0 +1,15 @@
+mimedia
+
+
+¡REALMENTE SABES CÓMO ELEGIR A UN GANADOR!
+
+¡Hola {firstName}!
+
+Ahora que {userName} ha aceptado tu invitación, hemos añadido {storageBonus} a
+tu cuenta de MiMedia. ¡Eso es trabajo en equipo!
+
+El equipo de MiMedia
+
+Inicio [https://portal.mimedia.com/]|Soporte
+[http://support.mimedia.com/]|Comentarios
+[http://support.mimedia.com/contact-us/]

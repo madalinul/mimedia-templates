@@ -1,0 +1,30 @@
+mimedia
+
+
+EL PAGO PARA {PLANDESCRIPTION} NO SE HA REALIZADO CORRECTAMENTE
+
+¡Hola {firstName}!
+
+Parece que su pago, realizado el {paymentDate} por {paymentAmount}, fue
+rechazado. Esto podría deberse a un cambio en el número de su tarjeta o a su
+vencimiento, la cancelación de su tarjeta de crédito o el banco no reconociendo
+el pago y tomando medidas para evitarlo.
+
+Por favor, verifique la información de su tarjeta en su página de facturación o
+contacte al equipo de soporte.
+
+¡Salud!
+
+El equipo de MiMedia
+
+Ver información de facturación [https://portal.mimedia.com]Contactar con soporte
+[support@mimedia.com]
+
+--------------------------------------------------------------------------------
+
+Por favor contáctenos en support@mimedia.com [support@mimedia.com] para obtener
+más información.
+
+Inicio [https://portal.mimedia.com/]|Soporte
+[http://support.mimedia.com/]|Comentarios
+[http://support.mimedia.com/contact-us/]

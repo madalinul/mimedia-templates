@@ -1,0 +1,21 @@
+mimedia
+
+
+TU CUENTA HA SIDO ELIMINADA.
+
+¡Hola {firstName}!
+
+Has eliminado tu cuenta de MiMedia y lo sentimos mucho. Esperamos que vuelvas a
+nosotros de nuevo.
+
+El equipo de MiMedia
+
+--------------------------------------------------------------------------------
+
+Si no realizaste este cambio, por favor verifica los detalles de tu cuenta y
+contáctanos en support@mimedia.com [support@mimedia.com] si crees que alguien
+realizó un cambio no autorizado.
+
+Inicio [https://portal.mimedia.com/]|Soporte
+[http://support.mimedia.com/]|Comentarios
+[http://support.mimedia.com/contact-us/]

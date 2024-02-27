@@ -1,0 +1,21 @@
+mimedia
+
+
+SE HA ACTUALIZADO SU FACTURACIÓN.
+
+¡Hola {firstName}!
+
+Nuestros registros indican que ha actualizado su información de facturación. Si
+esto es correcto, ¡ya está todo listo!
+
+El equipo de MiMedia
+
+--------------------------------------------------------------------------------
+
+Si no realizaste este cambio, por favor verifica los detalles de tu cuenta y
+contáctanos en support@mimedia.com [support@mimedia.com] si crees que alguien
+realizó un cambio no autorizado.
+
+Inicio [https://portal.mimedia.com/]|Soporte
+[http://support.mimedia.com/]|Comentarios
+[http://support.mimedia.com/contact-us/]

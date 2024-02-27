@@ -5,7 +5,7 @@ import { getEmails } from '../../utils/get-emails';
 import { Generate } from './generate';
 
 const partners = [
-  { name: 'mimedia', languages: ['en'] },
+  { name: 'mimedia', languages: ['en', 'es-MX'] },
   { name: 'orbic', languages: ['en', 'ja', 'es-MX'] },
   { name: 'tmcell', languages: ['en', 'es-MX'] },
   { name: 'pcd', languages: ['en', 'es-MX'] },

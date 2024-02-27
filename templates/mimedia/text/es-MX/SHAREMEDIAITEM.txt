@@ -1,0 +1,14 @@
+mimedia
+
+
+{SENDERFIRSTNAME} COMPARTIÓ {SHAREDITEMDESCRIPTION} CONTIGO EN {COLLECTIONNAME}
+
+{messageText}
+
+http://{baseUrl}/{shareKey}
+
+¡Haz clic aquí para ver en MiMedia! [http://{baseUrl}/{shareKey}]
+
+Inicio [https://portal.mimedia.com/]|Soporte
+[http://support.mimedia.com/]|Comentarios
+[http://support.mimedia.com/contact-us/]

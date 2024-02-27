@@ -1,0 +1,12 @@
+mimedia
+
+¡Hola {firstName}!
+
+Tu cuenta ha sido suspendida y cambiada a modo de solo lectura. Por favor,
+actualiza tu cuenta para recuperar el acceso completo a tus medios.
+
+El equipo de MiMedia
+
+Inicio [https://portal.mimedia.com/]|Soporte
+[http://support.mimedia.com/]|Comentarios
+[http://support.mimedia.com/contact-us/]
