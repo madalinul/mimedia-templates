@@ -1,6 +1,3 @@
-mimedia
-
-
 SE HA ACTUALIZADO SU PLAN DE ALMACENAMIENTO.
 
 ¡Hola {firstName}!

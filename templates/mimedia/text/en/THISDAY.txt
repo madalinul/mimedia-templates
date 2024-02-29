@@ -1,6 +1,3 @@
-mimedia
-
-
 CHECK OUT YOUR MEMORIES FROM THIS {SCOPE} IN {YEAR}
 
 Hey {userName}, take a trip down memory lane with these photos.

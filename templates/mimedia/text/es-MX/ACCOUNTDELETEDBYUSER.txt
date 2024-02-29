@@ -1,6 +1,3 @@
-mimedia
-
-
 TU CUENTA HA SIDO ELIMINADA.
 
 ¡Hola {firstName}!

@@ -1,6 +1,3 @@
-mimedia
-
-
 RENOVACIÓN DEL PLAN PROGRAMADA PARA LA {RENEWDATE}
 
 ¡Hola {firstName}!

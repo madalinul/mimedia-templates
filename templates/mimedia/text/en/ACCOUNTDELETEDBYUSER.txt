@@ -1,6 +1,3 @@
-mimedia
-
-
 YOUR ACCOUNT HAS BEEN DELETED.
 
 Hi {firstName}!

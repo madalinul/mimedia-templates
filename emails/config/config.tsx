@@ -1,4 +1,4 @@
-import { Column, Img, Row, Text } from '@react-email/components';
+import { Img } from '@react-email/components';
 import { Partner } from '../components/Template';
 
 const orbicConfig: PartnerConfig = {
@@ -24,19 +24,12 @@ const mimediaConfig: PartnerConfig = {
     textDark: '#8f9292',
     appUrl: 'https://portal.mimedia.com',
     logo: (
-        <Row>
-            <Column align='center' style={{ verticalAlign: 'middle' }}>
-                <Img
-                    src={'https://portal.mimedia.com/logos/mimedia-logo.png'}
-                    width='80'
-                    alt='Logo'
-                    className='inline-block align-bottom'
-                />
-                <Text className='inline-block text-3xl'>
-                    <span className='text-[#01a19f]'>mi</span>media
-                </Text>
-            </Column>
-        </Row>
+        <Img
+            src={'https://portal.mimedia.com/logos/mimedia-logo.png'}
+            width='80'
+            alt='Logo'
+            className='my-0 mx-auto'
+        />
     ),
 };
 

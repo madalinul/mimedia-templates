@@ -1,6 +1,3 @@
-mimedia
-
-
 PLAN RENEW SCHEDULED ON {RENEWDATE}
 
 Hi {firstName}!

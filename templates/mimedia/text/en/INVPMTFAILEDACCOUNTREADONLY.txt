@@ -1,5 +1,3 @@
-mimedia
-
 Hi {firstName}!
 
 Your account has been suspended and switched to read only mode. Please upgrade

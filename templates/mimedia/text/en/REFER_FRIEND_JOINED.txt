@@ -1,6 +1,3 @@
-mimedia
-
-
 YOU REALLY KNOW HOW TO PICK A WINNER!
 
 Hi {firstName}!

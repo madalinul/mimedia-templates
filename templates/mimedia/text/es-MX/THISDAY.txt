@@ -1,6 +1,3 @@
-mimedia
-
-
 REVISA TUS RECUERDOS DE ESTE {SCOPE} EN {YEAR}
 
 Hola {userName}, haz un viaje por el carril de los recuerdos con estas fotos.
