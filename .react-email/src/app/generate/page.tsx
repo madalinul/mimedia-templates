@@ -5,10 +5,10 @@ import { getEmails } from '../../utils/get-emails';
 import { Generate } from './generate';
 
 const partners = [
-  { name: 'mimedia', languages: ['en', 'es-MX'] },
-  { name: 'orbic', languages: ['en', 'ja', 'es-MX'] },
-  { name: 'tmcell', languages: ['en', 'es-MX'] },
-  { name: 'pcd', languages: ['en', 'es-MX'] },
+  { name: 'mimedia', languages: ['en', 'es'] },
+  { name: 'orbic', languages: ['en', 'ja', 'es'] },
+  { name: 'tmcell', languages: ['en', 'es'] },
+  { name: 'pcd', languages: ['en', 'es'] },
 ];
 
 export default async function Page() {

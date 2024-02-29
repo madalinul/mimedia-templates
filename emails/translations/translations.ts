@@ -55,10 +55,10 @@ i18EsMx
         // (tip move them in a JSON file and import them,
         // or even better, manage them via a UI: https://react.i18next.com/guides/multiple-translation-files#manage-your-translations-with-a-management-gui)
         resources: {
-            'es-MX': { translations: esMX },
+            es: { translations: esMX },
             'en-US': { translations: en },
         },
-        lng: 'es-MX', // if you're using a language detector, do not define the lng option
+        lng: 'es', // if you're using a language detector, do not define the lng option
         fallbackLng: 'en-US',
         ns: 'translations',
 
@@ -70,7 +70,7 @@ i18EsMx
 const instanceMap: Record<Languages, typeof i18n> = {
     en: i18nEn,
     ja: i18nJa,
-    'es-MX': i18EsMx,
+    es: i18EsMx,
 };
 
 export const getInstanceFromLanguage = (language: Languages) => {
