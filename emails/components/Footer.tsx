@@ -17,6 +17,16 @@ const Footer = ({ language, partner }: EmailProps) => {
         return <PcdFooter language={language} />;
     }
 
+    if (partner === 'schok') {
+        return (
+            <Section>
+                <Row>
+                    <Column align='center'>TO BE DETERMINED</Column>
+                </Row>
+            </Section>
+        );
+    }
+
     return <MimediaFooter language={language} />;
 };
 

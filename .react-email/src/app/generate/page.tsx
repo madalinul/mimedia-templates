@@ -9,6 +9,7 @@ const partners = [
   { name: 'orbic', languages: ['en', 'ja', 'es'] },
   { name: 'tmcell', languages: ['en', 'es'] },
   { name: 'pcd', languages: ['en', 'es'] },
+  { name: 'schok', languages: ['en'] },
 ];
 
 export default async function Page() {

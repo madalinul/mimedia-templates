@@ -6,7 +6,7 @@ import config from './config/config';
 import { EmailProps } from './config/types';
 import { getInstanceFromLanguage } from './translations/translations';
 
-const ACCOUNTDELETEDBYUSER = ({ partner = 'mimedia', language = 'en' }: EmailProps) => {
+const ACCOUNTDELETEDBYUSER = ({ partner = 'schok', language = 'en' }: EmailProps) => {
     return (
         <Template partner={partner} language={language}>
             <Heading className='text-[24px] font-normal text-center p-0 my-[30px] mx-0'>

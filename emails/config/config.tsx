@@ -63,6 +63,22 @@ const pcdConfig: PartnerConfig = {
     ),
 };
 
+const schokConfig: PartnerConfig = {
+    brand: '#85D7FF',
+    textDark: '#1F1F1F',
+    appName: 'Gallery',
+    supportEmail: 'support-schok@mimedia.com',
+    appUrl: 'https://portal.mimedia.com/schok/',
+    logo: (
+        <Img
+            src={'https://portal.mimedia.com/logos/schok-logo.png'}
+            width='100'
+            alt='Logo'
+            className='my-0 mx-auto'
+        />
+    ),
+};
+
 type PartnerConfig = {
     appName: string;
     appUrl: string;
@@ -77,6 +93,7 @@ export const partnersConfig: Record<Partner, PartnerConfig> = {
     mimedia: mimediaConfig,
     tmcell: tmcellConfig,
     pcd: pcdConfig,
+    schok: schokConfig,
 };
 
 export default partnersConfig;

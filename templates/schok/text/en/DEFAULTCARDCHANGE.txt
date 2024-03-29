@@ -1,0 +1,16 @@
+YOUR BILLING HAS BEEN UPDATED.
+
+Hi {firstName}!
+
+Our records show that you have updated your billing information. If this is
+correct, then you are all set!
+
+The Gallery Team
+
+--------------------------------------------------------------------------------
+
+If you did not make this change, please check your account details and contact
+us at support-schok@mimedia.com [support-schok@mimedia.com] if you believe
+someone has made an unauthorized change.
+
+TO BE DETERMINED
