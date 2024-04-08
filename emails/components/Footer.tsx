@@ -17,6 +17,10 @@ const Footer = ({ language, partner }: EmailProps) => {
         return <PcdFooter language={language} />;
     }
 
+    if (partner === 'telcel') {
+        return <TelcelFooter language={language} />;
+    }
+
     if (partner === 'schok') {
         return (
             <Section>
@@ -82,6 +86,23 @@ const PcdFooter = ({ language }: { language: Languages }) => {
                     <CustomLink
                         className='text-brand text-sm'
                         href='https://portal.mimedia.com/pcd/'
+                    >
+                        <Trans i18n={getInstanceFromLanguage(language)} i18nKey={'common.home'} />
+                    </CustomLink>
+                </Column>
+            </Row>
+        </Section>
+    );
+};
+
+const TelcelFooter = ({ language }: { language: Languages }) => {
+    return (
+        <Section>
+            <Row>
+                <Column align='center'>
+                    <CustomLink
+                        className='text-brand text-sm'
+                        href='https://portal.mimedia.com/telcel/'
                     >
                         <Trans i18n={getInstanceFromLanguage(language)} i18nKey={'common.home'} />
                     </CustomLink>

@@ -4,7 +4,7 @@ import partnersConfig from '../config/config';
 import Footer from './Footer';
 
 export type Languages = 'en' | 'ja' | 'es';
-export type Partner = 'mimedia' | 'orbic' | 'tmcell' | 'pcd' | 'schok';
+export type Partner = 'mimedia' | 'orbic' | 'tmcell' | 'pcd' | 'schok' | 'telcel';
 
 export const Template = ({
     children,

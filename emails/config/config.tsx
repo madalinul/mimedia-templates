@@ -79,6 +79,20 @@ const schokConfig: PartnerConfig = {
     ),
 };
 
+const telcelConfig: PartnerConfig = {
+    ...mimediaConfig,
+    supportEmail: 'soporte-telcel@mimedia.com',
+    appUrl: 'https://portal.mimedia.com/telcel/',
+    logo: (
+        <Img
+            src={'https://portal.mimedia.com/logos/mimedia-logo.png'}
+            width='80'
+            alt='Logo'
+            className='my-0 mx-auto'
+        />
+    ),
+};
+
 type PartnerConfig = {
     appName: string;
     appUrl: string;
@@ -94,6 +108,7 @@ export const partnersConfig: Record<Partner, PartnerConfig> = {
     tmcell: tmcellConfig,
     pcd: pcdConfig,
     schok: schokConfig,
+    telcel: telcelConfig,
 };
 
 export default partnersConfig;

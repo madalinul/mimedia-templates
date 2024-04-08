@@ -10,6 +10,7 @@ const partners = [
   { name: 'tmcell', languages: ['en', 'es'] },
   { name: 'pcd', languages: ['en', 'es'] },
   { name: 'schok', languages: ['en'] },
+  { name: 'telcel', languages: ['es'] },
 ];
 
 export default async function Page() {
@@ -20,6 +21,20 @@ export default async function Page() {
     const partner = partnerObj.name;
     htmlLinks += `<div><h1>${partner}</h1><div style='display:flex;gap:1rem'>`;
     for (const language of partnerObj.languages) {
+      try {
+        await fs.mkdir(
+          `/Users/madalin/dev/mimedia-templates/templates/${partner}/html/${language}`,
+          {
+            recursive: true,
+          },
+        );
+        await fs.mkdir(
+          `/Users/madalin/dev/mimedia-templates/templates/${partner}/text/${language}`,
+          {
+            recursive: true,
+          },
+        );
+      } catch (err) {}
       htmlLinks += `<div><h4 style='text-align:center'>${language}</h4><ul>`;
       const htmlDirectory = `../templates/${partner}/html/${language}/`;
       for (const file of await fs.readdir(htmlDirectory)) {

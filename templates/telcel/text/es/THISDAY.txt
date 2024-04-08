@@ -1,0 +1,15 @@
+REVISA TUS RECUERDOS DE ESTE {SCOPE} EN {YEAR}
+
+Hola {userName}, haz un viaje por el carril de los recuerdos con estas fotos.
+
+
+
+¡Haz clic aquí para ver en MiMedia! [http://{baseUrl}/{shareKey}]
+
+--------------------------------------------------------------------------------
+
+Si prefiere no recibir más correos electrónicos de MiMedia en el futuro, por
+favor cancelar suscripción.
+[https://portal.mimedia.com/#account/unsubscribe?emailType=this_day]
+
+Inicio [https://portal.mimedia.com/telcel/]
