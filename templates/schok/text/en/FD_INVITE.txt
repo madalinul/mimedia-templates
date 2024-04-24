@@ -17,4 +17,7 @@ other members of the {fdName}
 
 Join now! [http://{joinUrl}]
 
-TO BE DETERMINED
+Home [https://portal.mimedia.com/schok]|Contact
+[https://schokgear.com/pages/contact]|Terms & Conditions
+[https://schokgear.com/pages/terms]|Privacy Policy
+[https://schokgear.com/pages/privacy-policy]

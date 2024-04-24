@@ -64,7 +64,7 @@ const pcdConfig: PartnerConfig = {
 };
 
 const schokConfig: PartnerConfig = {
-    brand: '#85D7FF',
+    brand: '#64A3D6',
     textDark: '#1F1F1F',
     appName: 'Gallery',
     supportEmail: 'support-schok@mimedia.com',

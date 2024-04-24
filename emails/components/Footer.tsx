@@ -22,16 +22,54 @@ const Footer = ({ language, partner }: EmailProps) => {
     }
 
     if (partner === 'schok') {
-        return (
-            <Section>
-                <Row>
-                    <Column align='center'>TO BE DETERMINED</Column>
-                </Row>
-            </Section>
-        );
+        return <SchokFooter language={language} />;
     }
 
     return <MimediaFooter language={language} />;
+};
+
+const SchokFooter = ({ language }: { language: Languages }) => {
+    return (
+        <Section>
+            <Row>
+                <Column align='center'>
+                    <CustomLink
+                        className='text-brand text-sm'
+                        href='https://portal.mimedia.com/schok'
+                    >
+                        <Trans i18n={getInstanceFromLanguage(language)} i18nKey={'common.home'} />
+                    </CustomLink>
+                    <span className='mx-2'>|</span>
+                    <CustomLink
+                        className='text-brand text-sm'
+                        href='https://schokgear.com/pages/contact'
+                    >
+                        <Trans
+                            i18n={getInstanceFromLanguage(language)}
+                            i18nKey={'common.contact'}
+                        />
+                    </CustomLink>
+                    <span className='mx-2'>|</span>
+                    <CustomLink
+                        className='text-brand text-sm'
+                        href='https://schokgear.com/pages/terms'
+                    >
+                        <Trans i18n={getInstanceFromLanguage(language)} i18nKey={'common.terms'} />
+                    </CustomLink>
+                    <span className='mx-2'>|</span>
+                    <CustomLink
+                        className='text-brand text-sm'
+                        href='https://schokgear.com/pages/privacy-policy'
+                    >
+                        <Trans
+                            i18n={getInstanceFromLanguage(language)}
+                            i18nKey={'common.privacy'}
+                        />
+                    </CustomLink>
+                </Column>
+            </Row>
+        </Section>
+    );
 };
 
 const OrbicFooter = ({ language }: { language: Languages }) => {

@@ -21,4 +21,7 @@ View billing info [https://portal.mimedia.com/schok/]Contact support
 Please contact us at support-schok@mimedia.com [support-schok@mimedia.com] for
 more information.
 
-TO BE DETERMINED
+Home [https://portal.mimedia.com/schok]|Contact
+[https://schokgear.com/pages/contact]|Terms & Conditions
+[https://schokgear.com/pages/terms]|Privacy Policy
+[https://schokgear.com/pages/privacy-policy]

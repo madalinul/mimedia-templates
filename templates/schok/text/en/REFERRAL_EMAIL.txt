@@ -16,4 +16,7 @@ you're interested, we've got 5GB free waiting for you.
 
 Let's get started [{portalUrl}]
 
-TO BE DETERMINED
+Home [https://portal.mimedia.com/schok]|Contact
+[https://schokgear.com/pages/contact]|Terms & Conditions
+[https://schokgear.com/pages/terms]|Privacy Policy
+[https://schokgear.com/pages/privacy-policy]
